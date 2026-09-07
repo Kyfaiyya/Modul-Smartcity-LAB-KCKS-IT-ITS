@@ -1,4 +1,4 @@
-# Modul 1.1 — Pengantar Smart City
+# Modul 1.1 Pengantar Smart City
 
 ---
 
