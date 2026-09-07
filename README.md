@@ -47,110 +47,40 @@ Pertanyaan tersebut menjadi dasar dalam memahami konsep Smart City.
 
 ### 3.1 Definisi Smart City
 
-Smart City merupakan konsep yang berkembang dari hubungan antara pembangunan perkotaan, teknologi, inovasi, tata kelola, masyarakat, dan keberlanjutan.
+Untuk memahami konsep Smart City, kita perlu melihat bahwa istilah ini tidak hanya merujuk pada penggunaan teknologi di wilayah perkotaan. Smart City berkembang dari kebutuhan untuk menghadapi berbagai persoalan kota yang semakin kompleks, seperti pertumbuhan penduduk, kebutuhan terhadap pelayanan publik, keterbatasan sumber daya, persoalan lingkungan, mobilitas, serta tuntutan terhadap kualitas hidup masyarakat.
 
-Tidak terdapat satu definisi Smart City yang berlaku secara universal. Setiap negara, organisasi, dan akademisi dapat menggunakan pendekatan yang berbeda sesuai dengan konteksnya.
+Salah satu rujukan internasional yang banyak digunakan dalam pembahasan Smart City berasal dari International Telecommunication Union (ITU). ITU merupakan badan khusus Perserikatan Bangsa-Bangsa (PBB) yang menangani bidang teknologi informasi dan komunikasi (Information and Communication Technologies/ICT).
 
-Dalam kerangka ITU-T Y.4900, **Smart Sustainable City** didefinisikan sebagai kota inovatif yang memanfaatkan teknologi informasi dan komunikasi (ICT) serta cara lainnya untuk meningkatkan kualitas hidup, efisiensi operasi dan layanan perkotaan, serta daya saing, dengan tetap memastikan terpenuhinya kebutuhan generasi sekarang dan mendatang dalam aspek ekonomi, sosial, lingkungan, dan budaya.
+Dalam bidang Smart City, ITU mengembangkan serangkaian rekomendasi dan kerangka kerja yang dikenal sebagai ITU-T Y.4900 series. Seri ini membahas berbagai aspek Smart Sustainable Cities, termasuk konsep, indikator kinerja, serta cara mengevaluasi perkembangan sebuah kota.
 
-Definisi tersebut menunjukkan bahwa Smart City memiliki beberapa tujuan yang saling berkaitan:
-- Meningkatkan kualitas hidup masyarakat
-- Meningkatkan efisiensi operasi dan layanan kota
-- Meningkatkan daya saing kota
-- Menjaga keberlanjutan
-- Memperhatikan kebutuhan generasi mendatang
+Smart City dan Smart Sustainable City
 
-Dengan demikian, teknologi merupakan salah satu sarana, bukan tujuan akhir pembangunan Smart City.
+ITU menggunakan istilah Smart Sustainable City (SSC) untuk menekankan bahwa kecerdasan sebuah kota tidak cukup hanya dilihat dari kemampuan kota dalam menggunakan teknologi.
 
-### 3.2 Smart City Bukan Sekadar Teknologi
+Secara konseptual, Smart Sustainable City merupakan wilayah perkotaan yang menggunakan teknologi informasi dan komunikasi serta berbagai cara inovatif untuk meningkatkan kualitas hidup, meningkatkan efisiensi operasi dan pelayanan perkotaan, serta meningkatkan daya saing kota. Pada saat yang sama, pembangunan tersebut perlu memperhatikan kebutuhan ekonomi, sosial, lingkungan, dan budaya, baik untuk masyarakat saat ini maupun generasi mendatang.
 
-Pemahaman yang terlalu sederhana sering menyamakan Smart City dengan penggunaan teknologi.
+Dengan kata lain, terdapat beberapa tujuan yang berjalan secara bersamaan:
+```text
+                    Smart Sustainable City
+                              │
+          ┌───────────────────┼───────────────────┐
+          ↓                   ↓                   ↓
+   Kualitas Hidup       Layanan Kota        Daya Saing Kota
+   Masyarakat            yang Efisien
+          │                   │                   │
+          └───────────────────┼───────────────────┘
+                              ↓
+                    Keberlanjutan Kota
+                              │
+              ┌───────────────┼───────────────┐
+              ↓               ↓               ↓
+           Ekonomi          Sosial        Lingkungan
 
-Contohnya:
-> *"Kota memiliki banyak CCTV, berarti sudah Smart City."*
+```
 
-atau:
-> *"Kota memiliki aplikasi pelayanan publik, berarti sudah Smart City."*
+Hal tersebut menunjukkan bahwa teknologi bukan merupakan tujuan akhir dari Smart City. Teknologi digunakan sebagai enabler, yaitu alat yang memungkinkan pemerintah, masyarakat, dan pihak lainnya melakukan pengelolaan kota dengan lebih efektif.
 
-Kesimpulan tersebut tidak cukup.
-
-Teknologi baru memberikan nilai apabila mampu menghasilkan perubahan yang bermanfaat bagi kota dan masyarakat.
-
-Contohnya:
-- **Teknologi**
-  - → Sistem informasi transportasi
-  - → Masyarakat memperoleh informasi perjalanan secara lebih mudah
-  - → Waktu dan ketidakpastian perjalanan dapat dikurangi
-  - → Kualitas layanan mobilitas meningkat
-
-Dalam contoh tersebut, teknologi berfungsi sebagai *enabler* atau pengungkit untuk mencapai tujuan yang lebih besar.
-
-Karena itu, cara berpikir Smart City seharusnya dimulai dari:
-1. **Kebutuhan masyarakat dan tantangan kota**
-   - *kemudian:*
-2. **Pendekatan dan kebijakan yang tepat**
-   - *dan selanjutnya:*
-3. **Teknologi digunakan apabila memang dapat memberikan nilai tambah.**
-
----
-
-## 4. Perkembangan Pendekatan Smart City
-
-Konsep Smart City pada awal perkembangannya banyak dikaitkan dengan pemanfaatan ICT untuk meningkatkan efisiensi dan mengoptimalkan operasi perkotaan.
-
-Namun, perkembangan pemikiran mengenai Smart City menunjukkan bahwa pendekatan yang terlalu berorientasi pada teknologi memiliki sejumlah risiko.
-
-UN-Habitat dalam pengembangan *International Guidelines on People-Centred Smart Cities* menekankan perlunya pendekatan yang berpusat pada manusia, dengan perhatian terhadap inklusi, partisipasi, keberlanjutan, hak asasi manusia, serta akses yang setara terhadap layanan dan infrastruktur digital.
-
-Pendekatan tersebut menggeser cara pandang:
-- **Pendekatan teknologi-sentris:**  
-  Teknologi → sistem → masyarakat sebagai pengguna  
-- *menjadi:*  
-  **Pendekatan people-centred:**  
-  Kebutuhan masyarakat → permasalahan kota → solusi → teknologi sebagai pendukung  
-
-Perubahan ini penting karena teknologi yang canggih belum tentu menghasilkan manfaat yang merata.
-
-Sebuah sistem digital dapat menjadi sangat efisien secara teknis tetapi tetap gagal apabila:
-- masyarakat tidak dapat mengaksesnya;
-- masyarakat tidak memahami cara menggunakannya;
-- sistem tidak sesuai dengan kebutuhan;
-- data tidak dikelola dengan baik;
-- terdapat risiko terhadap privasi;
-- atau masyarakat tidak dilibatkan dalam proses pengembangannya.
-
----
-
-## 5. Prinsip People-Centred Smart City
-
-Pendekatan *people-centred smart city* menempatkan manusia sebagai pusat pembangunan.
-
-UN-Habitat menjelaskan bahwa kota cerdas yang berpusat pada manusia menggunakan teknologi untuk meningkatkan kualitas hidup masyarakat dan keberlanjutan lingkungan, sekaligus mendorong kemakmuran bersama dan inklusi. Pendekatan ini juga menekankan partisipasi dan kolaborasi masyarakat dalam pengembangan inovasi.
-
-Beberapa prinsip pentingnya adalah:
-
-### 5.1 Berorientasi pada kebutuhan manusia
-Teknologi dikembangkan berdasarkan kebutuhan nyata masyarakat.
-
-### 5.2 Inklusif
-Manfaat teknologi dan layanan digital perlu dapat diakses oleh berbagai kelompok masyarakat, termasuk kelompok rentan.
-
-### 5.3 Partisipatif
-Masyarakat bukan hanya pengguna, tetapi dapat terlibat dalam proses perencanaan, pengembangan, dan evaluasi.
-
-### 5.4 Berkelanjutan
-Pengembangan teknologi perlu mempertimbangkan dampaknya terhadap lingkungan dan generasi mendatang.
-
-### 5.5 Aman dan terpercaya
-Pemanfaatan teknologi perlu memperhatikan privasi, keamanan, tata kelola data, dan kepercayaan masyarakat.
-
-### 5.6 Kontekstual
-Tidak terdapat satu solusi Smart City yang dapat diterapkan secara sama pada semua kota.  
-Solusi harus mempertimbangkan karakteristik, kebutuhan, kapasitas, dan kondisi lokal.
-
----
-
-## 6. Enam Pilar Smart City di Indonesia
+## 4. Enam Pilar Smart City di Indonesia
 
 Dalam konteks Indonesia, pengembangan Smart City menggunakan enam pilar utama:
 1. **Smart Governance**
@@ -166,9 +96,9 @@ Keenam pilar tersebut tidak dimaksudkan sebagai enam bagian yang berdiri sendiri
 
 ---
 
-## 7. Smart Governance
+## 5. Smart Governance
 
-### 7.1 Pengertian
+### 5.1 Pengertian
 
 Smart Governance berkaitan dengan tata kelola pemerintahan yang mampu memberikan pelayanan secara lebih efektif, efisien, transparan, komunikatif, dan responsif.
 
@@ -188,9 +118,9 @@ Teknologi dapat digunakan untuk mendukung:
 
 ---
 
-## 8. Smart Branding
+## 6. Smart Branding
 
-### 8.1 Pengertian
+### 6.1 Pengertian
 
 Smart Branding berkaitan dengan pengembangan identitas dan daya tarik kota berdasarkan potensi yang dimilikinya.
 
@@ -209,9 +139,9 @@ Potensi tersebut dapat berasal dari:
 
 ---
 
-## 9. Smart Economy
+## 7. Smart Economy
 
-### 9.1 Pengertian
+### 7.1 Pengertian
 
 Smart Economy berkaitan dengan pengembangan ekosistem ekonomi yang produktif, inovatif, adaptif, dan mampu memanfaatkan perkembangan teknologi.
 
@@ -231,9 +161,9 @@ Contohnya:
 
 ---
 
-## 10. Smart Society
+## 8. Smart Society
 
-### 10.1 Pengertian
+### 8.1 Pengertian
 
 Smart Society menempatkan masyarakat sebagai aktor penting dalam pembangunan Smart City.
 
@@ -256,9 +186,9 @@ Aspek yang berkaitan dengan Smart Society antara lain:
 
 ---
 
-## 11. Smart Environment
+## 9. Smart Environment
 
-### 11.1 Pengertian
+### 9.1 Pengertian
 
 Smart Environment berkaitan dengan pengelolaan lingkungan dan sumber daya kota secara efektif dan berkelanjutan.
 
@@ -280,9 +210,9 @@ Kebijakan, perilaku masyarakat, desain kota, dan pengelolaan sumber daya tetap m
 
 ---
 
-## 12. Smart Living
+## 10. Smart Living
 
-### 12.1 Pengertian
+### 10.1 Pengertian
 
 Smart Living berfokus pada kelayakan dan kualitas kehidupan masyarakat di dalam kota.
 
@@ -303,7 +233,7 @@ Contohnya:
 
 ---
 
-## 13. Keterkaitan Enam Pilar
+## 11. Keterkaitan Enam Pilar
 
 Enam pilar Smart City tidak dapat dipisahkan secara mutlak.
 
@@ -327,7 +257,7 @@ Yang lebih penting adalah memahami:
 
 ---
 
-## 14. Peran Teknologi dalam Smart City
+## 12. Peran Teknologi dalam Smart City
 
 Teknologi merupakan salah satu enabler utama Smart City.
 
@@ -360,28 +290,130 @@ Aplikasi baru belum tentu menjadi solusi terbaik.
 
 ---
 
-## 15. Peran Data dalam Smart City
+## 13. Peran Data dalam Smart City
 
-Data merupakan salah satu komponen penting dalam pengelolaan kota karena dapat membantu pemerintah dan pemangku kepentingan memahami kondisi, memantau perubahan, dan mendukung pengambilan keputusan.
+Data merupakan salah satu komponen penting dalam pengelolaan kota. Data dapat membantu pemerintah dan pemangku kepentingan memahami kondisi kota, memantau perubahan, serta mendukung pengambilan keputusan.
 
-ITU mengembangkan berbagai rekomendasi mengenai indikator dan KPI untuk Smart Sustainable Cities, termasuk indikator yang berkaitan dengan keberlanjutan, ICT, serta pencapaian tujuan pembangunan berkelanjutan.
+Dalam konteks Smart City, data dapat digunakan untuk memberikan gambaran mengenai berbagai aspek perkotaan, seperti kependudukan, ekonomi, sosial, infrastruktur, dan lingkungan.
 
 Namun, data harus dipahami dalam konteks yang tepat.
 
 Data dapat membantu menjawab:
-> *"Bagaimana kondisi kota?"*
 
-Tetapi data tunggal belum tentu dapat menjawab:
-> *"Mengapa kondisi tersebut terjadi?"*
+> **"Bagaimana kondisi kota?"**
+
+Tetapi satu data saja belum tentu dapat menjawab:
+
+> **"Mengapa kondisi tersebut terjadi?"**
 
 atau:
-> *"Apa solusi terbaik?"*
 
-Oleh karena itu, data merupakan dasar pengambilan keputusan, bukan pengganti proses berpikir.
+> **"Apa solusi terbaik yang harus dilakukan?"**
+
+Oleh karena itu:
+
+> **Data merupakan dasar informasi dan pengambilan keputusan, bukan pengganti proses berpikir.**
 
 ---
 
-## 16. Pentingnya Konteks Lokal
+## 13.1 Jenis Data
+
+Data yang digunakan dalam memahami kondisi kota dapat dibedakan berdasarkan **bentuk** dan **asalnya**.
+
+### Berdasarkan Bentuk
+
+**Data kuantitatif** merupakan data dalam bentuk angka yang dapat dihitung atau diukur.
+
+Contoh:
+
+- jumlah penduduk;
+- kepadatan penduduk;
+- PDRB;
+- tingkat pengangguran;
+- persentase penduduk miskin;
+- panjang jalan.
+
+**Data kualitatif** merupakan data berupa deskripsi, karakteristik, atau informasi nonangka.
+
+Contoh:
+
+- deskripsi kebijakan;
+- hasil wawancara;
+- narasi dokumen perencanaan;
+- pendapat masyarakat.
+
+### Berdasarkan Asal
+
+**Data primer** merupakan data yang dikumpulkan secara langsung untuk kebutuhan penelitian atau analisis.
+
+Contoh:
+
+- survei;
+- wawancara;
+- observasi;
+- pengukuran langsung.
+
+**Data sekunder** merupakan data yang telah dikumpulkan atau dipublikasikan oleh pihak lain dan kemudian digunakan untuk kebutuhan analisis.
+
+Contoh:
+
+- publikasi BPS;
+- portal Open Data atau Satu Data pemerintah daerah;
+- RPJMD;
+- RKPD;
+- laporan resmi.
+
+Dalam Modul 1.1, mahasiswa terutama menggunakan **data kuantitatif sekunder** untuk memperoleh gambaran awal mengenai kondisi kota studi.
+
+---
+
+# 14. Sumber Data
+
+Data yang digunakan dalam praktikum perlu berasal dari sumber yang **kredibel dan dapat diverifikasi**.
+
+Beberapa sumber utama yang dapat digunakan adalah:
+
+| Sumber | Kegunaan Utama |
+|---|---|
+| **BPS** | Statistik kependudukan, ekonomi, sosial, kemiskinan, ketenagakerjaan, dan pembangunan manusia |
+| **Open Data / Satu Data Pemerintah Daerah** | Data sektoral seperti infrastruktur, kesehatan, lingkungan, transportasi, dan fasilitas publik |
+| **RPJMD** | Kondisi daerah, indikator pembangunan, permasalahan, sasaran, dan arah kebijakan jangka menengah |
+| **RKPD** | Prioritas dan target pembangunan tahunan serta kondisi pembangunan terkini |
+| **Laporan resmi pemerintah** | Informasi sektoral atau perkembangan program yang tidak selalu tersedia dalam statistik rutin |
+
+### Prinsip Pemilihan Sumber
+
+Tidak semua indikator tersedia pada setiap sumber. Karena itu, gunakan **sumber yang paling relevan dengan indikator yang dicari**.
+
+Prioritaskan sumber yang:
+
+1. diterbitkan oleh lembaga resmi;
+2. memiliki definisi data yang jelas;
+3. mencantumkan tahun atau periode data;
+4. dapat ditelusuri kembali ke dokumen atau halaman sumber;
+5. memiliki cakupan wilayah yang sesuai dengan kota studi.
+
+> **Catatan:** Perbedaan definisi, satuan, tahun, atau cakupan wilayah dapat membuat dua data yang terlihat sama menjadi tidak dapat dibandingkan secara langsung. Karena itu, sumber dan definisi data perlu diperhatikan sebelum data digunakan dalam analisis.
+
+---
+
+## 14.1 Hubungan Jenis dan Sumber Data
+
+Dalam praktikum, mahasiswa dapat menemukan kombinasi data seperti berikut:
+
+```text
+Data
+│
+├── Berdasarkan bentuk
+│   ├── Kuantitatif
+│   └── Kualitatif
+│
+└── Berdasarkan asal
+    ├── Primer
+    └── Sekunder
+```
+
+## 15. Pentingnya Konteks Lokal
 
 Smart City tidak dapat diterapkan menggunakan satu formula yang sama untuk seluruh kota.
 
@@ -404,7 +436,7 @@ Mahasiswa perlu memahami kota terlebih dahulu sebelum menentukan isu maupun solu
 
 ---
 
-## 17. Smart City sebagai Ekosistem
+## 16. Smart City sebagai Ekosistem
 
 Berdasarkan pembahasan sebelumnya, Smart City dapat dipahami sebagai ekosistem, bukan sekadar kumpulan teknologi.
 
@@ -446,7 +478,7 @@ Dengan pendekatan ini, teknologi tidak ditempatkan sebagai pusat tunggal. Teknol
 
 ---
 
-## 18. Kerangka Berpikir dalam Praktikum
+## 17. Kerangka Berpikir dalam Praktikum
 
 Dalam praktikum ini, mahasiswa akan menggunakan konsep Smart City sebagai kerangka untuk memahami kota.
 
@@ -474,7 +506,7 @@ Proses identifikasi isu akan dilakukan pada modul berikutnya.
 
 ---
 
-## 19. Kesimpulan
+## 18. Kesimpulan
 
 Smart City bukan sekadar penerapan teknologi pada lingkungan perkotaan.
 
@@ -499,7 +531,7 @@ Prinsip utama yang perlu diingat adalah:
 
 ---
 
-## 20. Referensi
+## 19. Referensi
 
 1. International Telecommunication Union. (2023). *Recommendation ITU-T Y.4223: Common requirements and capabilities of smart cities and communities from IoT and ICT perspectives*.
 2. International Telecommunication Union. (2022). *Recommendation ITU-T Y.4903: Key performance indicators for smart sustainable cities to assess the achievement of the Sustainable Development Goals*.
