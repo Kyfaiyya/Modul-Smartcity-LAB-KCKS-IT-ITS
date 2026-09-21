@@ -4,7 +4,7 @@
 
 ## 1. Tujuan Pembelajaran
 
-Setelah mempelajari materi ini, mahasiswa diharapkan mampu:
+Setelah mempelajari materi ini, kita diharapkan mampu:
 - Membedakan antara gejala, penyebab antara, dan akar masalah.
 - Menjelaskan fungsi metode APKL sebagai alat penyaringan isu.
 - Menjelaskan fungsi metode USG sebagai alat pemeringkatan isu.
@@ -19,7 +19,7 @@ Setelah mempelajari materi ini, mahasiswa diharapkan mampu:
 
 ## 2. Pendahuluan
 
-Pada Modul 1.2, mahasiswa telah mengamati fenomena perkotaan, mengeksplorasi konteksnya, memvalidasi bukti, dan merumuskan pernyataan masalah (*problem statement*).
+Pada Modul 1.2, kita telah mengamati fenomena perkotaan, mengeksplorasi konteksnya, memvalidasi bukti, dan merumuskan pernyataan masalah (*problem statement*).
 
 Dari proses tersebut, biasanya diperoleh beberapa kandidat isu. Masing-masing tampak penting.
 
@@ -37,7 +37,7 @@ Tantangan lainnya adalah kecenderungan untuk langsung mengobati gejala yang terl
 
 Sebagai contoh, ketika sampah menumpuk di sudut-sudut kota, solusi yang sering muncul adalah menambah truk pengangkut atau membuat aplikasi pelaporan sampah. Namun, jika akar masalahnya terletak pada jadwal pengangkutan yang tidak teratur di tingkat rukun warga, maka solusi tersebut tidak akan menuntaskan persoalan.
 
-Modul 1.3 membantu mahasiswa melakukan dua hal:
+Modul 1.3 membantu kita melakukan dua hal:
 1. **Memilih satu isu prioritas** dari beberapa kandidat, menggunakan metode APKL dan USG.
 2. **Menemukan akar masalah** dari isu prioritas tersebut, menggunakan Diagram Fishbone, teknik 5 Whys, serta Iceberg Model.
 
@@ -45,7 +45,7 @@ Modul 1.3 membantu mahasiswa melakukan dua hal:
 
 ## 3. Gejala, Penyebab Antara, dan Akar Masalah
 
-Sebelum melakukan analisis, mahasiswa perlu memahami bahwa suatu persoalan perkotaan memiliki beberapa lapisan.
+Sebelum melakukan analisis, kita perlu memahami bahwa suatu persoalan perkotaan memiliki beberapa lapisan.
 
 ![Gejala, Penyebab Antara, dan Akar Masalah](./assets/kausalitas_akar_masalah.jpg)
 
@@ -96,7 +96,7 @@ Contoh:
 
 ## 4. Mengapa Perlu Penyaringan dan Pemeringkatan?
 
-Dari Modul 1.2, mahasiswa mungkin menghasilkan tiga atau lebih kandidat isu. Semua isu tersebut mungkin valid dan didukung bukti.
+Dari Modul 1.2, kita telah menghasilkan tiga kandidat isu. Semua isu tersebut mungkin valid dan didukung bukti.
 
 Namun, kota memiliki keterbatasan:
 
@@ -120,7 +120,7 @@ Namun, kota memiliki keterbatasan:
             ISU PRIORITAS UTAMA
 ```
 
-Untuk itu, mahasiswa perlu melalui dua tahap:
+Untuk itu, kita perlu melalui dua tahap:
 1. **Penyaringan (APKL)**: Menguji apakah setiap isu layak untuk diangkat.
 2. **Pemeringkatan (USG)**: Dari isu yang layak, menentukan mana yang paling mendesak.
 
@@ -394,7 +394,7 @@ Diagram ini terdiri dari:
 
 ### 8.2 Kategori Penyebab untuk Konteks Smart City
 
-Dalam konteks perkotaan dan Smart City, mahasiswa dapat menggunakan 5 sampai 6 kategori berikut:
+Dalam konteks perkotaan dan Smart City, kita dapat menggunakan 5 sampai 6 kategori berikut:
 
 1. **People (Masyarakat & Aparatur)**  
    Kompetensi petugas, kepatuhan warga terhadap aturan, literasi digital, atau resistensi terhadap perubahan.
@@ -415,7 +415,7 @@ Dalam konteks perkotaan dan Smart City, mahasiswa dapat menggunakan 5 sampai 6 k
    Peraturan daerah yang tumpang tindih, ketidakjelasan wewenang, atau lemahnya penegakan sanksi.
 
 > **Catatan — Lensa Triple Transition:**  
-> Dalam mengisi kategori Fishbone, mahasiswa juga dapat mempertimbangkan kerangka *Triple Transition* (Green, Digital, Inclusive) yang diperkenalkan oleh Prof. Rizal Sebastian pada CITIES International Conference 2025 di Surabaya. Kerangka ini membantu memastikan bahwa analisis penyebab mencakup tiga dimensi transisi kota cerdas secara seimbang:
+> Dalam mengisi kategori Fishbone, kita juga dapat mempertimbangkan kerangka *Triple Transition* (Green, Digital, Inclusive) yang diperkenalkan oleh Prof. Rizal Sebastian pada CITIES International Conference 2025 di Surabaya. Kerangka ini membantu memastikan bahwa analisis penyebab mencakup tiga dimensi transisi kota cerdas secara seimbang:
 >
 > | Transisi | Pertanyaan Panduan untuk Fishbone |
 > | :--- | :--- |
@@ -427,7 +427,7 @@ Dalam konteks perkotaan dan Smart City, mahasiswa dapat menggunakan 5 sampai 6 k
 
 ### 8.3 Perbedaan Issue Tree dan Fishbone
 
-Mahasiswa sering keliru mencampurkan keduanya. Berikut perbedaannya:
+Kedua metode ini terkadang membingungkan atau keliru disamakan. Berikut perbedaannya:
 
 | | Issue Tree (Modul 1.2) | Fishbone (Modul 1.3) |
 | :--- | :--- | :--- |
@@ -488,7 +488,7 @@ Jawaban pada Why 5 adalah **akar masalah**.
 
 ## 10. Analisis Berlapis dengan Iceberg Model
 
-Selain Fishbone dan 5 Whys, mahasiswa dapat menggunakan **Iceberg Model** sebagai alat bantu untuk melihat isu secara lebih sistemik sebelum memetakan penyebab.
+Selain Fishbone dan 5 Whys, kita dapat menggunakan **Iceberg Model** sebagai alat bantu untuk melihat isu secara lebih sistemik sebelum memetakan penyebab.
 
 Iceberg Model dikembangkan dalam tradisi *systems thinking* dan banyak digunakan dalam analisis kebijakan publik. Model ini membagi sebuah persoalan ke dalam empat lapisan:
 
@@ -541,7 +541,7 @@ Ketiga metode ini saling melengkapi:
    masalah ini?"              penyebabnya?"               terjadi?"
 ```
 
-Mahasiswa dapat menggunakan Iceberg Model sebagai langkah awal untuk memahami kedalaman isu, lalu menggunakan Fishbone untuk memetakan penyebab secara terstruktur, dan 5 Whys untuk menurunkan setiap cabang hingga akar masalah.
+Kita dapat menggunakan Iceberg Model sebagai langkah awal untuk memahami kedalaman isu, lalu menggunakan Fishbone untuk memetakan penyebab secara terstruktur, dan 5 Whys untuk menurunkan setiap cabang hingga akar masalah.
 
 > **Tips Praktis:**  
 > Isi tabel Iceberg terlebih dahulu sebelum menggambar Fishbone. Lapisan *Structure* dan *Mental Model* dari Iceberg sering kali menjadi akar masalah yang ditempatkan di ujung cabang Fishbone.
@@ -727,8 +727,8 @@ Tabel ini menunjukkan bagaimana sebuah kota besar mengidentifikasi isu per pilar
 | **Smart Branding** | *City branding* belum optimal | Wisatawan mancanegara: Jakarta 1,96 juta vs Singapura 13,6 juta |
 | **Smart Government** | Transformasi digital pelayanan publik masih berjalan | Target percepatan SPBE dan ekosistem kota cerdas |
 
-> **Catatan untuk mahasiswa:**  
-> Tabel di atas menunjukkan tahap awal identifikasi isu. Setelah isu-isu ini dikumpulkan, langkah selanjutnya adalah melakukan penyaringan (APKL) dan pemeringkatan (USG) untuk menentukan mana yang menjadi prioritas — persis seperti yang dipraktikkan di Modul 1.3.
+> **Catatan:**  
+> Tabel di atas menunjukkan tahap awal identifikasi isu. Setelah isu-isu ini dikumpulkan, langkah selanjutnya adalah kita melakukan penyaringan (APKL) dan pemeringkatan (USG) untuk menentukan mana yang menjadi prioritas — persis seperti yang kita praktikkan di Modul 1.3.
 
 ---
 
@@ -811,7 +811,7 @@ Ketentuan:
 
 ## 16. Luaran dan Ketentuan Pengumpulan
 
-Setiap mahasiswa mengunggah dua berkas:
+Kita perlu mengunggah dua berkas:
 
 1. **Diagram Fishbone**
    - Format: `.png`
