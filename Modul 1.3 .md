@@ -619,9 +619,44 @@ Justifikasi USG:
 
 ---
 
-### 12.4 Analisis Iceberg Model untuk Isu Prioritas (Krisis TPA Benowo)
+### 12.4 Diagram Fishbone untuk Isu Prioritas
 
-Sebelum memetakan penyebab ke dalam diagram tulang ikan, kita bedah kedalaman persoalan krisis TPA Benowo menggunakan Iceberg Model agar analisis tidak terhenti pada respons pemadam kebakaran semata:
+Rumusan masalah pada kepala ikan (*effect*):  
+> *"Kesenjangan kapasitas pengolahan aktif TPA Benowo terhadap volume timbulan sampah Kota Surabaya (residu ±536,74 ton/hari tertimbun di landfill dan insiden kebakaran Blok 1B)."*
+
+![Diagram Fishbone Isu Prioritas TPA Benowo Surabaya](./assets/fishbone_isu_prioritas_surabaya.png)
+
+Diagram di atas memetakan kausalitas persoalan ke dalam 6 kategori Smart City dengan penelusuran akar masalah menggunakan teknik 5 Whys:
+
+1. **People (Masyarakat & Komunitas)**:
+   - *Penyebab Antara*: Rendahnya budaya pemilahan sampah di sumber; kebiasaan membuang sampah secara tercampur.
+   - *Akar Masalah (Why 5)*: **Belum tersedianya skema insentif dan disinsentif pemilahan sampah di tingkat RT/RW.**
+
+2. **Process (Reduksi & Pengolahan Hulu)**:
+   - *Penyebab Antara*: Realisasi pengurangan sampah di hulu kota baru mencapai 7,43%, terpaut jauh dari target resmi 35,29% (Perwali Surabaya No. 64/2018).
+   - *Akar Masalah (Why 5)*: **Ketiadaan SOP inspeksi berkala dan sanksi tegas bagi pengelola kawasan mandiri/komersial yang tidak mengolah sampah sendiri.**
+
+3. **Technology (Fasilitas PSEL & Sensor IoT)**:
+   - *Penyebab Antara*: Kapasitas gasifikasi PSEL mentok di 1.000 ton/hari; belum tersedianya fasilitas olah antara (TPST 3R/pirolisis) skala rayon kota.
+   - *Akar Masalah (Why 5)*: **Belum terpasangnya sensor pemantauan emisi metana dini dan instrumentasi IoT timbulan sampah di titik-titik transfer hulu-hilir.**
+
+4. **Data & Resources (Satu Data & Neraca Sampah)**:
+   - *Penyebab Antara*: Data timbulan sampah antar-TPS terputus dan pencatatan baru dilakukan saat truk memasuki jembatan timbang akhir TPA Benowo.
+   - *Akar Masalah (Why 5)*: **Belum terbangunnya Sistem Satu Data Persampahan berbasis neraca sampah digital secara real-time.**
+
+5. **Environment (Landfill & Emisi Metana)**:
+   - *Penyebab Antara*: Lahan aktif landfill makin kritis akibat akumulasi residu harian ±536,74 ton/hari, memicu insiden kebakaran gas metana di Blok 1B seluas ±900 m² (19 Juli 2026).
+   - *Akar Masalah (Why 5)*: **Manajemen persampahan kota masih bertumpu pada pola konvensional sentralisasi hilir (*end-of-pipe*).**
+
+6. **Policy & Governance (Regulasi & Desentralisasi)**:
+   - *Penyebab Antara*: Beban penanganan bertumpu sentralistis di TPA Benowo; regulasi pemilahan sampah belum mengikat secara operasional.
+   - *Akar Masalah (Why 5)*: **Belum ada regulasi operasional yang mewajibkan desentralisasi pengolahan sampah tingkat kawasan permukiman dan komersial.**
+
+---
+
+### 12.5 Analisis Iceberg Model untuk Isu Prioritas (Krisis TPA Benowo)
+
+Untuk memperkuat pemahaman sistemik sebelum merancang intervensi solusi Smart City pada tahap berikutnya, kita bedah persoalan krisis TPA Benowo ke dalam empat lapisan Iceberg Model:
 
 | Lapisan | Pertanyaan Kunci | Temuan pada Isu TPA Benowo Surabaya | Respons Intervensi |
 | :--- | :--- | :--- | :--- |
@@ -629,46 +664,6 @@ Sebelum memetakan penyebab ke dalam diagram tulang ikan, kita bedah kedalaman pe
 | **Pattern** *(Tren Berulang)* | Apakah kejadian ini membentuk pola berkelanjutan? | Residu sampah tak terolah tertimbun ±536,74 ton/hari secara konsisten di lahan landfill; capaian reduksi sampah di hulu kota mandek di 7,43% (jauh tertinggal dari target resmi 35,29% Perwali No. 64/2018). | **Anticipate**: Menghitung sisa usia teknis zona landfill, memprediksi titik jenuh daya tampung, menambah shift operasional mesin gasifikasi. |
 | **Structure** *(Sistem & Tata Kelola)* | Sistem, regulasi, dan koordinasi apa yang membentuk pola ini? | Tata kelola persampahan masih tersentralisasi di hilir (*end-of-pipe*); belum ada sistem Satu Data neraca sampah digital real-time antar-TPS; ketiadaan instrumen regulasi yang tegas (insentif/disinsentif) untuk memaksa pemilahan di sumber pada pengelola kawasan komersial dan pemukiman. | **Redesign / Regenerate**: Mendesentralisasi fasilitas olah antara (TPST 3R/pirolisis skala rayon); membangun sistem pemantauan IoT timbulan dan sensor metana; menyusun regulasi operasional kewajiban pilah berbasis RT/RW. |
 | **Mental Model** *(Paradigma Dasar)* | Pola pikir atau asumsi apa yang melanggengkan struktur tersebut? | Anggapan umum masyarakat dan pengelola kawasan bahwa *"urusan sampah selesai setelah dibuang ke luar rumah/lingkungan"*, serta ketergantungan semu bahwa teknologi PSEL hilir sanggup menyerap semua beban tanpa perlu kita memilah sejak dari hulu. | **Reframe**: Mengubah cara pandang dari model konsumsi linear ("buang-kumpul-angkut") menjadi ekonomi sirkular; menanamkan kesadaran bersama bahwa pemilahan di hulu adalah kewajiban dasar warga kota cerdas. |
-
----
-
-### 12.5 Diagram Fishbone untuk Isu Prioritas
-
-Rumusan masalah pada kepala ikan:  
-*"Kesenjangan kapasitas pengolahan aktif TPA Benowo terhadap volume timbulan sampah Kota Surabaya (residu ±536,74 ton/hari tertimbun di landfill dan insiden kebakaran Blok 1B)."*
-
-```text
-       PEOPLE                              PROCESS                        TECHNOLOGY
-          \                                   \                               \
-           \── Pemilahan sampah di             \── Realisasi reduksi hulu      \── Kapasitas PSEL
-            \  sumber sangat minim              \  hanya 7,43% (target 35,29%)  \  mentok di 1.000 ton/hari
-             \                                   \                               \
-              \── Mengapa? Kebiasaan              \── Mengapa? Pengawasan         \── Mengapa? Belum ada
-               \  buang campur dan                 \  kewajiban pemilahan          \  fasilitas olah antara
-                \  literasi 3R rendah               \  di kawasan minim             \  (TPST/pirolisis rayon)
-                 \                                   \                               \
-                  \── AKAR: Belum ada                 \── AKAR: Belum ada SOP         \── AKAR: Sistem sensor
-                      skema insentif/                     inspeksi berkala dan            pemantauan metana &
-                      disinsentif pemilahan               sanksi bagi pengelola           IoT timbulan belum
-                      di tingkat RT/RW                    kawasan mandiri                 terpasang di TPS-TPA
-                       \                                   \                               \
-───────────────────────┴───────────────────────────────────┴───────────────────────────────┴──────► [ KEPALA IKAN ]
-                       /                                   /                                        KRISIS KAPASITAS
-                      /── Data timbulan sampah            /── Lahan landfill makin                  TPA BENOWO
-                     /   antar-TPS belum terhubung       /   kritis & emisi gas metana              (RESIDU 536 TON/HARI
-                    /    secara real-time               /    tinggi di Blok 1B                      & KEBAKARAN 2026)
-                   /                                   /
-                  /── Mengapa? Pencatatan              /── Mengapa? Pengelolaan
-                 /   hanya di jembatan timbang        /   masih bertumpu pada
-                /    akhir TPA Benowo                /    hilir (end-of-pipe)
-               /                                   /
-              /── AKAR: Belum ada                 /── AKAR: Belum ada regulasi
-                  Sistem Satu Data                    operasional yang mewajibkan
-                  Persampahan berbasis                desentralisasi pengolahan
-                  neraca sampah digital               sampah tingkat kawasan
-                 /                                   /
-       DATA & RESOURCES                     ENVIRONMENT & POLICY
-```
 
 ---
 
