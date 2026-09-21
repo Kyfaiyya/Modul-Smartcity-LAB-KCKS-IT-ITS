@@ -132,13 +132,7 @@ Metode APKL digunakan untuk menguji kelayakan suatu isu sebelum diprioritaskan. 
 
 APKL menguji empat hal:
 
-```text
-                        APKL
-                          │
-       ┌──────────┬───────┴───────┬──────────┐
-       ↓          ↓               ↓          ↓
-    Aktual    Problematik    Kekhalayakan  Kelayakan
-```
+![Kerangka Metode APKL](./assets/kerangka_apkl_rapi.png)
 
 ### 5.1 Aktual (A)
 
@@ -244,15 +238,7 @@ Jika APKL menjawab *"Apakah isu ini layak?"*, maka USG menjawab *"Dari yang laya
 
 USG menilai tiga dimensi:
 
-```text
-                          USG
-                           │
-            ┌──────────────┼──────────────┐
-            ↓              ↓              ↓
-         Urgency      Seriousness       Growth
-       (Ketersediaan  (Keparahan      (Kecepatan
-          Waktu)        Dampak)       Memburuk)
-```
+![Kerangka Metode USG](./assets/kerangka_usg.png)
 
 ### 6.1 Urgency (U) — Seberapa Mendesak?
 
