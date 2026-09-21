@@ -365,21 +365,7 @@ Diagram ini dikembangkan oleh Kaoru Ishikawa dan banyak digunakan dalam analisis
 
 ### 8.1 Struktur Diagram Fishbone
 
-```text
-  PEOPLE               PROCESS              TECHNOLOGY
-      \                    \                     \
-       \── Sub-sebab        \── Sub-sebab         \── Sub-sebab
-        \                    \                     \
-         \── Akar Masalah     \── Akar Masalah      \── Akar Masalah
-          \                    \                     \
-───────────┴────────────────────┴─────────────────────┴──────────► [ KEPALA IKAN ]
-          /                    /                     /               ISU PRIORITAS
-         /── Akar Masalah     /── Akar Masalah      /── Akar Masalah
-        /                    /                     /
-       /── Sub-sebab        /── Sub-sebab         /── Sub-sebab
-      /                    /                     /
-  DATA & RESOURCES     ENVIRONMENT            POLICY
-```
+![Struktur Diagram Fishbone](./assets/struktur_diagram_fishbone.png)
 
 Diagram ini terdiri dari:
 
