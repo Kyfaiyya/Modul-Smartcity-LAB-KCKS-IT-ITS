@@ -478,28 +478,17 @@ Selain Fishbone dan 5 Whys, kita dapat menggunakan **Iceberg Model** sebagai ala
 
 Iceberg Model dikembangkan dalam tradisi *systems thinking* dan banyak digunakan dalam analisis kebijakan publik. Model ini membagi sebuah persoalan ke dalam empat lapisan:
 
-```text
-┌─────────────────────────────────────────────────┐
-│  ░░░░░░░░░░ PERMUKAAN AIR ░░░░░░░░░░░░░░░░░░░░ │
-│                                                 │
-│  1. EVENT (Peristiwa)                           │
-│     Apa yang terjadi? Fakta yang tampak.         │
-│                                                 │
-│  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  │
-│                                                 │
-│  2. PATTERN (Pola)                              │
-│     Apakah kejadian ini berulang atau tren?     │
-│                                                 │
-│  3. STRUCTURE (Struktur)                        │
-│     Sistem, regulasi, kewenangan, atau          │
-│     koordinasi apa yang membentuk pola ini?     │
-│                                                 │
-│  4. MENTAL MODEL (Model Mental)                 │
-│     Asumsi, cara pandang, atau kebiasaan        │
-│     berpikir apa yang melanggengkan struktur?   │
-│                                                 │
-└─────────────────────────────────────────────────┘
-```
+![Iceberg Model](./assets/iceberg.png)
+
+Secara visual, Iceberg Model mengilustrasikan bahwa apa yang tampak di permukaan hanyalah sebagian kecil dari persoalan sesungguhnya. Model ini membagi analisis ke dalam dua ranah utama:
+
+1. **Di Atas Permukaan Air (*Visible / Terlihat Langsung*)**:
+   - **Events (Peristiwa)**: Kejadian atau gejala yang tampak dan dirasakan langsung (*"Apa yang sedang terjadi?"*). Respons umum pada level ini biasanya hanya bersifat reaktif (**React**).
+   - **Patterns + Trends (Pola & Tren)**: Peristiwa serupa yang terjadi berulang kali sepanjang waktu (*"Apakah ada tren berulang?"*). Respons pada level ini adalah mengenali pola untuk mengantisipasi (**Anticipate**).
+
+2. **Di Bawah Permukaan Air (*Invisible / Akar Tersembunyi*)**:
+   - **Systems + Structures (Sistem & Struktur)**: Aturan, regulasi, prosedur birokrasi, alokasi anggaran, atau relasi kekuasaan yang membentuk dan melanggengkan pola tersebut (*"Struktur apa yang memicu pola ini?"*). Tindakan pada lapisan ini adalah mendesain ulang (**Redesign**) atau memperbarui sistem secara menyeluruh (**Regenerate**).
+   - **Mental Models (Model Mental)**: Keyakinan, nilai-nilai, asumsi dasar, atau budaya kerja yang melatarbelakangi terbentuknya sistem (*"Pola pikir apa yang melanggengkan struktur tersebut?"*). Intervensi paling fundamental adalah mengubah paradigma berpikir (**Reframe**).
 
 ### 10.1 Penjelasan Setiap Lapisan
 
@@ -578,21 +567,24 @@ Berikut adalah hubungan antar-modul dari Modul 1.1 hingga 1.3:
 
 ## 12. Contoh Terapan: Kota Surabaya
 
-Berikut adalah contoh lengkap penerapan APKL, USG, dan Fishbone menggunakan kasus Kota Surabaya.
+Berikut adalah contoh lengkap penerapan APKL, USG, dan Fishbone menggunakan data riil Kota Surabaya yang telah dikumpulkan dan divalidasi pada Modul 1.1 dan Modul 1.2 (bersumber dari lembar kerja *Smart City Kelompok 7 — Surabaya*).
 
 ### 12.1 Tiga Kandidat Isu dari Modul 1.2
 
-1. **Isu A — Smart Environment**  
-   Penumpukan sampah di TPS wilayah Surabaya Timur pada akhir pekan.  
-   Bukti: Data DLH menunjukkan volume sampah melonjak 28% di akhir pekan, keterlambatan pengangkutan mencapai 6 jam.
+1. **Isu A — Smart Environment (Pengelolaan Persampahan)**  
+   *Kesenjangan kapasitas olah aktif TPA Benowo terhadap volume timbulan sampah kota yang terus meningkat.*  
+   - **Problem Statement**: Volume sampah yang masuk ke TPA Benowo (1.536,74 ton/hari pada 2024) sudah hampir menyamai kapasitas olah aktif fasilitas gasifikasi (1.000 ton/hari), menyisakan ±536,74 ton/hari tertimbun di landfill, sementara realisasi pengurangan sampah kota hanya 7,43% dari target resmi 35,29%, dan insiden kebakaran landfill pada Juli 2026 menunjukkan adanya tekanan operasional yang kritis pada pengelolaan akhir sampah kota.  
+   - **Bukti Kunci**: Kepwali Surabaya No. 100.3.3.3/210/436.1.2/2025; Perwali Surabaya No. 64/2018; data timbulan sampah 1.810,81 ton/hari (Sheet 1.1); insiden kebakaran TPA Benowo Blok 1B seluas ±900 m² pada 19 Juli 2026.
 
-2. **Isu B — Smart Living (Mobilitas)**  
-   Tingginya waktu tunggu armada feeder WiraWiri yang mencapai 25–35 menit pada jam sibuk.  
-   Bukti: Standar Dishub menetapkan waktu tunggu maksimal 12 menit; survei mencatat penumpukan penumpang di 4 halte utama.
+2. **Isu B — Smart Environment & Living (Ketahanan Drainase & RTH)**  
+   *Genangan air berulang akibat fasilitas pengendali air yang belum lengkap, di tengah ketiadaan data pemantauan RTH privat.*  
+   - **Problem Statement**: Genangan berulang terjadi di berbagai titik Kota Surabaya setiap musim hujan — tujuh titik tercatat pada 5 November 2025, terparah di Tenggilis dan Tanjungsari — akibat fasilitas pengendali air (pompa, pintu air, box culvert) yang belum lengkap, di tengah RTH publik kota sebesar 20,32% yang telah memenuhi syarat minimum UU namun ketersediaan RTH privat (turut disyaratkan UU No. 26/2007 min. 10%) belum tercatat dalam data resmi kota.  
+   - **Bukti Kunci**: Pernyataan resmi Kepala DSDABM Surabaya (November 2025); UU No. 26/2007 Pasal 29; capaian RTH publik 20,32% (Bappeda Surabaya, Sheet 1.1).
 
-3. **Isu C — Smart Governance (Ekonomi)**  
-   Rendahnya adopsi portal perizinan digital oleh pedagang mikro informal.  
-   Bukti: Baru 18% pedagang mikro yang memperbarui NIB melalui layanan mandiri.
+3. **Isu C — Smart Society & Economy (Kawasan Pesisir & Hunian Layak)**  
+   *Kemiskinan nelayan dan status kumuh kawasan pesisir Kenjeran-Bulak di tengah kontras data zero kumuh dan tekanan proyek reklamasi.*  
+   - **Problem Statement**: Nelayan tradisional dan buruh nelayan di kawasan pesisir Kenjeran-Bulak, termasuk Kel. Sukolilo Baru yang berstatus kumuh resmi (11,68 Ha/6.050 jiwa), menghadapi kemiskinan yang bertahan di tengah klaim Pemkot bahwa kawasan kumuh kota sudah 0% sejak 2019 — klaim yang kontras dengan data kumuh 43,46 Ha di 21 kelurahan dan sekitar 14.000 pengajuan bantuan hunian layak yang belum direspons — sementara rencana reklamasi pesisir (Surabaya Waterfront Land) dan stagnasi wisata Kenjeran Park menambah tekanan sosial-ekonomi mereka.  
+   - **Bukti Kunci**: BPS Kota Surabaya (penduduk miskin 3,56% atau 105,09 ribu jiwa per Maret 2025); Ditjen Cipta Karya Kementerian PUPR (2017); riset Jurnal Hukum UNESA (2026); Jurnal MUKADIMAH (2025).
 
 ---
 
@@ -600,13 +592,13 @@ Berikut adalah contoh lengkap penerapan APKL, USG, dan Fishbone menggunakan kasu
 
 | No | Isu | A | P | K | L | Total | Status |
 | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :--- |
-| 1 | **Isu A** — Penumpukan sampah TPS Surabaya Timur | 4 | 4 | 4 | 4 | **16** | Memenuhi Syarat |
-| 2 | **Isu B** — Waktu tunggu feeder WiraWiri jam sibuk | 5 | 4 | 5 | 4 | **18** | Memenuhi Syarat |
-| 3 | **Isu C** — Rendahnya adopsi perizinan digital UMKM | 3 | 3 | 3 | 4 | **13** | Memenuhi Syarat |
+| 1 | **Isu A** — Kesenjangan kapasitas TPA Benowo & timbulan sampah | 5 | 5 | 5 | 5 | **20** | Memenuhi Syarat |
+| 2 | **Isu B** — Genangan berulang & kelengkapan pengendali air / RTH | 4 | 4 | 4 | 4 | **16** | Memenuhi Syarat |
+| 3 | **Isu C** — Kemiskinan nelayan & kekumuhan pesisir Kenjeran-Bulak | 4 | 4 | 4 | 4 | **16** | Memenuhi Syarat |
 
 Justifikasi singkat:
-- **Isu B** mendapat skor tertinggi karena transportasi umum terintegrasi merupakan program prioritas pemkot (A=5) dan menyangkut mobilitas ratusan ribu komuter harian (K=5).
-- Ketiga isu memperoleh total skor di atas 12 dan tidak memiliki nilai L=1, sehingga ketiganya **memenuhi syarat** untuk masuk ke tahap USG.
+- **Isu A (Skor 20)**: Mendapat nilai maksimal di seluruh kriteria karena TPA Benowo adalah satu-satunya TPA aktif kota (Aktual=5), kapasitasnya dinyatakan resmi hampir mencapai batas maksimal disertai kebakaran landfill (Problematik=5), menyangkut seluruh 3 juta penduduk kota (Kekhalayakan=5), dan berada langsung dalam wewenang otoritas Pemkot Surabaya (Kelayakan=5).
+- **Isu B & Isu C (Skor 16)**: Keduanya memperoleh skor di atas ambang batas kelayakan (total $\ge 12$ dan tidak ada nilai $L=1$), sehingga seluruh kandidat isu dinyatakan **memenuhi syarat** untuk diuji lebih lanjut pada tahap USG.
 
 ---
 
@@ -614,49 +606,67 @@ Justifikasi singkat:
 
 | No | Isu | U | S | G | Total | Peringkat |
 | :-: | :--- | :-: | :-: | :-: | :-: | :--- |
-| 1 | **Isu A** — Penumpukan sampah TPS Surabaya Timur | 4 | 4 | 4 | **12** | Peringkat 2 |
-| 2 | **Isu B** — Waktu tunggu feeder WiraWiri jam sibuk | 5 | 5 | 4 | **14** | **Peringkat 1** |
-| 3 | **Isu C** — Rendahnya adopsi perizinan digital UMKM | 3 | 3 | 3 | **9** | Peringkat 3 |
+| 1 | **Isu A** — Kesenjangan kapasitas TPA Benowo & timbulan sampah | 5 | 5 | 5 | **15** | **Peringkat 1** |
+| 2 | **Isu B** — Genangan berulang & kelengkapan pengendali air / RTH | 4 | 4 | 4 | **12** | Peringkat 2 |
+| 3 | **Isu C** — Kemiskinan nelayan & kekumuhan pesisir Kenjeran-Bulak | 4 | 3 | 4 | **11** | Peringkat 3 |
 
-Justifikasi:
-- **U=5** pada Isu B: Rute ekspansi feeder sedang dibuka tahun ini. Jika waktu tunggu tetap buruk, warga akan kembali menggunakan kendaraan pribadi dan program transportasi umum kehilangan kepercayaan publik.
-- **S=5** pada Isu B: Keterlambatan memicu penumpukan penumpang dan memperparah kemacetan jalan arteri pada jam kerja.
-- **G=4** pada Isu B: Dampak ketidakpercayaan warga berpotensi meluas ke rute koridor lain dalam 6–12 bulan.
+Justifikasi USG:
+- **Urgency (U=5)** pada Isu A: Kepwali No. 210/2025 secara eksplisit menyatakan kapasitas TPA Benowo sudah hampir mencapai batas maksimal. Penundaan intervensi hulu akan menyebabkan penumpukan residu harian (±536,74 ton/hari) meluap tanpa alternatif penampungan lain.
+- **Seriousness (S=5)** pada Isu A: Kebakaran landfill Blok 1B pada 19 Juli 2026 membuktikan bahwa akumulasi gas metana dari timbunan sampah menimbulkan risiko keselamatan, kesehatan lingkungan, dan gangguan operasional fasilitas vital di sekitarnya.
+- **Growth (G=5)** pada Isu A: Volume sampah kota terus bertambah seiring populasi (timbulan 1.810 ton/hari), sementara realisasi pengurangan sampah dari sumber hanya 7,43% (jauh di bawah target 35,29%). Jika dibiarkan, laju akumulasi sampah akan melampaui daya dukung kota secara eksponensial.
 
-**Keputusan: Isu B ditetapkan sebagai isu prioritas utama (Peringkat 1).**
+**Keputusan: Isu A ditetapkan sebagai Isu Prioritas Utama (Peringkat 1).**
 
 ---
 
-### 12.4 Diagram Fishbone untuk Isu Prioritas
+### 12.4 Analisis Iceberg Model untuk Isu Prioritas (Krisis TPA Benowo)
+
+Sebelum memetakan penyebab ke dalam diagram tulang ikan, kita bedah kedalaman persoalan krisis TPA Benowo menggunakan Iceberg Model agar analisis tidak terhenti pada respons pemadam kebakaran semata:
+
+| Lapisan | Pertanyaan Kunci | Temuan pada Isu TPA Benowo Surabaya | Respons Intervensi |
+| :--- | :--- | :--- | :--- |
+| **Event** *(Permukaan)* | Apa yang terjadi secara kasat mata? | Volume sampah masuk TPA Benowo (1.536,74 ton/hari) melampaui kapasitas olah aktif fasilitas gasifikasi PSEL (1.000 ton/hari); insiden kebakaran timbunan sampah di Blok 1B seluas ±900 m² (19 Juli 2026). | **React**: Pemadaman api darurat oleh DPKP, penutupan terpal/tanah di zona kebakaran, pengerahan ekskavator tambahan. |
+| **Pattern** *(Tren Berulang)* | Apakah kejadian ini membentuk pola berkelanjutan? | Residu sampah tak terolah tertimbun ±536,74 ton/hari secara konsisten di lahan landfill; capaian reduksi sampah di hulu kota mandek di 7,43% (jauh tertinggal dari target resmi 35,29% Perwali No. 64/2018). | **Anticipate**: Menghitung sisa usia teknis zona landfill, memprediksi titik jenuh daya tampung, menambah shift operasional mesin gasifikasi. |
+| **Structure** *(Sistem & Tata Kelola)* | Sistem, regulasi, dan koordinasi apa yang membentuk pola ini? | Tata kelola persampahan masih tersentralisasi di hilir (*end-of-pipe*); belum ada sistem Satu Data neraca sampah digital real-time antar-TPS; ketiadaan instrumen regulasi yang tegas (insentif/disinsentif) untuk memaksa pemilahan di sumber pada pengelola kawasan komersial dan pemukiman. | **Redesign / Regenerate**: Mendesentralisasi fasilitas olah antara (TPST 3R/pirolisis skala rayon); membangun sistem pemantauan IoT timbulan dan sensor metana; menyusun regulasi operasional kewajiban pilah berbasis RT/RW. |
+| **Mental Model** *(Paradigma Dasar)* | Pola pikir atau asumsi apa yang melanggengkan struktur tersebut? | Anggapan umum masyarakat dan pengelola kawasan bahwa *"urusan sampah selesai setelah dibuang ke luar rumah/lingkungan"*, serta ketergantungan semu bahwa teknologi PSEL hilir sanggup menyerap semua beban tanpa perlu kita memilah sejak dari hulu. | **Reframe**: Mengubah cara pandang dari model konsumsi linear ("buang-kumpul-angkut") menjadi ekonomi sirkular; menanamkan kesadaran bersama bahwa pemilahan di hulu adalah kewajiban dasar warga kota cerdas. |
+
+---
+
+### 12.5 Diagram Fishbone untuk Isu Prioritas
 
 Rumusan masalah pada kepala ikan:  
-*"Tingginya waktu tunggu armada feeder WiraWiri Surabaya (25–35 menit) pada jam sibuk di koridor komuter utama."*
+*"Kesenjangan kapasitas pengolahan aktif TPA Benowo terhadap volume timbulan sampah Kota Surabaya (residu ±536,74 ton/hari tertimbun di landfill dan insiden kebakaran Blok 1B)."*
 
 ```text
        PEOPLE                              PROCESS                        TECHNOLOGY
           \                                   \                               \
-           \── Pengemudi terjebak              \── Jadwal keberangkatan        \── GPS tracker armada
-            \  kemacetan arteri                 \  masih bersifat kaku          \  mengalami keterlambatan
+           \── Pemilahan sampah di             \── Realisasi reduksi hulu      \── Kapasitas PSEL
+            \  sumber sangat minim              \  hanya 7,43% (target 35,29%)  \  mentok di 1.000 ton/hari
              \                                   \                               \
-              \── Mengapa? Tidak ada              \── Mengapa? Tidak ada          \── Mengapa? Pembaruan
-               \  panduan rute alternatif          \  info lalu lintas             \  lokasi hanya tiap 3 mnt
-                \                                   \  secara real-time             \
-                 \── AKAR: Belum ada                 \── AKAR: Belum ada SOP        \── AKAR: Keterbatasan
-                     pelatihan navigasi                  dispatch adaptif/              paket data IoT dan
-                     dinamis berbasis data                dinamis                       spesifikasi modul
-                      \                                   \                               \
+              \── Mengapa? Kebiasaan              \── Mengapa? Pengawasan         \── Mengapa? Belum ada
+               \  buang campur dan                 \  kewajiban pemilahan          \  fasilitas olah antara
+                \  literasi 3R rendah               \  di kawasan minim             \  (TPST/pirolisis rayon)
+                 \                                   \                               \
+                  \── AKAR: Belum ada                 \── AKAR: Belum ada SOP         \── AKAR: Sistem sensor
+                      skema insentif/                     inspeksi berkala dan            pemantauan metana &
+                      disinsentif pemilahan               sanksi bagi pengelola           IoT timbulan belum
+                      di tingkat RT/RW                    kawasan mandiri                 terpasang di TPS-TPA
+                       \                                   \                               \
 ───────────────────────┴───────────────────────────────────┴───────────────────────────────┴──────► [ KEPALA IKAN ]
-                      /                                   /                                        HEADWAY WIRAWIRI
-                     /── Tidak ada data jumlah           /── Jalan menyempit akibat                25-35 MENIT
-                    /   penumpang di tiap halte          /   parkir liar di badan jalan
+                       /                                   /                                        KRISIS KAPASITAS
+                      /── Data timbulan sampah            /── Lahan landfill makin                  TPA BENOWO
+                     /   antar-TPS belum terhubung       /   kritis & emisi gas metana              (RESIDU 536 TON/HARI
+                    /    secara real-time               /    tinggi di Blok 1B                      & KEBAKARAN 2026)
                    /                                   /
-                  /── Mengapa? Halte belum ada         /── Mengapa? Pengawasan
-                 /   sensor penghitung penumpang      /   petugas masih sporadis
-                /                                   /
-               /── AKAR: Data halte belum           /── AKAR: Lemahnya sistem
-                   terintegrasi dengan                   tilang elektronik di
-                   server pusat kendali                  koridor penyangga
-                  /                                   /
+                  /── Mengapa? Pencatatan              /── Mengapa? Pengelolaan
+                 /   hanya di jembatan timbang        /   masih bertumpu pada
+                /    akhir TPA Benowo                /    hilir (end-of-pipe)
+               /                                   /
+              /── AKAR: Belum ada                 /── AKAR: Belum ada regulasi
+                  Sistem Satu Data                    operasional yang mewajibkan
+                  Persampahan berbasis                desentralisasi pengolahan
+                  neraca sampah digital               sampah tingkat kawasan
+                 /                                   /
        DATA & RESOURCES                     ENVIRONMENT & POLICY
 ```
 
@@ -811,31 +821,7 @@ Kita perlu mengunggah dua berkas:
 
 ---
 
-## 17. Rubrik Penilaian
-
-### 17.1 T1.3 — Diagram Fishbone (20 Poin)
-
-| Kriteria | Sangat Baik (85–100%) | Cukup (65–84%) | Kurang (0–64%) | Bobot |
-| :--- | :--- | :--- | :--- | :---: |
-| **Kepala Ikan & Kategori** | Rumusan masalah spesifik dan berkonteks; 4–5 kategori relevan | Rumusan cukup jelas tapi agak umum; kategori ada yang tumpang tindih | Rumusan hanya kata umum ("Macet"); kurang dari 3 kategori | **5** |
-| **Kedalaman 5 Whys** | Cabang diturunkan 3–5 lapis hingga akar masalah sistemik yang jelas | Cabang 2 lapis; masih mencampur gejala dengan akar masalah | Cabang 1 lapis saja; tidak tampak penerapan 5 Whys | **8** |
-| **Validitas Bukti** | Seluruh penyebab konsisten dengan data dari Modul 1.1 dan 1.2 | Sebagian masuk akal, tapi beberapa cabang bersifat asumsi | Didominasi asumsi tanpa dasar data | **4** |
-| **Kualitas Visual** | Rapi, proporsional, teks tajam, PNG resolusi tinggi | Cukup rapi, teks terbaca, resolusi standar | Berantakan, tulisan buram, format tidak sesuai | **3** |
-
----
-
-### 17.2 T1.4 — Skoring APKL & USG (25 Poin)
-
-| Kriteria | Sangat Baik (85–100%) | Cukup (65–84%) | Kurang (0–64%) | Bobot |
-| :--- | :--- | :--- | :--- | :---: |
-| **Justifikasi APKL** | Setiap skor A, P, K, L disertai narasi berbasis data yang jelas dan mengacu rubrik | Narasi ada tapi bersifat umum, minim rujukan data | Tidak ada narasi, atau narasi disalin-tempel antar-isu | **7** |
-| **Justifikasi USG** | Narasi U, S, G logis dan membedakan derajat kegawatan antar-isu | Narasi ada tapi argumen U dan S masih tumpang tindih | Tidak ada argumentasi logis atau deskripsi kosong | **7** |
-| **Rumus Spreadsheet** | Seluruh total dan ranking menggunakan rumus aktif (`SUM`, `RANK.EQ`) | Rumus penjumlahan aktif, tapi ranking diketik manual | Seluruh angka diketik manual tanpa rumus | **6** |
-| **Konsistensi & Format** | Isu Peringkat 1 konsisten menjadi subjek Fishbone; spreadsheet rapi | Isu konsisten, tapi tata letak kurang rapi | Isu Fishbone berbeda dari hasil ranking; format tidak sesuai | **5** |
-
----
-
-## 18. Kesalahan Umum
+## 17. Kesalahan Umum
 
 Berikut kesalahan yang sering terjadi dan harus dihindari:
 
@@ -879,7 +865,7 @@ Menyusun penyebab secara teoretis umum tanpa memperhatikan kondisi nyata, geogra
 
 ---
 
-## 19. Ringkasan
+## 18. Ringkasan
 
 | Tahap | Metode | Pertanyaan | Hasil |
 | :--- | :--- | :--- | :--- |
