@@ -13,7 +13,7 @@ Setelah mempelajari materi ini, kita diharapkan mampu:
 - Menyusun Diagram Fishbone dengan kategori yang sesuai untuk konteks Smart City.
 - Menerapkan teknik 5 Whys untuk menemukan akar masalah.
 - Memahami konsep Iceberg Model untuk menganalisis kedalaman masalah secara sistemik.
-- Menghasilkan luaran berupa Diagram Fishbone (PNG) dan lembar kerja skoring (XLSX).
+- Menghasilkan pemetaan kausalitas Diagram Fishbone dan penetapan isu prioritas berbasis data yang siap diintervensi.
 
 ---
 
@@ -667,144 +667,7 @@ Untuk memperkuat pemahaman sistemik sebelum merancang intervensi solusi Smart Ci
 
 ---
 
-## 13. Contoh Terapan: Kota Surakarta (Iceberg Model + 5 Whys)
-
-Berikut contoh penerapan Iceberg Model dan 5 Whys pada kasus nyata di Kota Surakarta, diambil dari Modul Penyusunan Policy Brief (CivicLab Academy × ITS × Taktis Consulting, 2026).
-
-### 13.1 Masalah Awal
-
-Warga di sekitar TPA Putri Cempo, Surakarta, terganggu oleh bau sampah yang pekat.
-
-### 13.2 Analisis Iceberg Model
-
-| Lapisan | Temuan |
-| :--- | :--- |
-| **Event** | Bau sampah menyengat tercium warga di sekitar TPA |
-| **Pattern** | Bau muncul berulang, terutama saat aktivitas pemilahan sampah aktif |
-| **Structure** | Kinerja pengolahan hulu (TPS 3R) belum optimal; beban timbunan di blok TPA sudah sangat tinggi |
-| **Mental Model** | Menganggap bau TPA sebagai risiko yang harus diterima warga tanpa perlu intervensi tata ruang dan kebijakan operasional |
-
-### 13.3 Analisis 5 Whys
-
-| Tingkat | Pertanyaan | Jawaban |
-| :--- | :--- | :--- |
-| **Why 1** | Mengapa bau sangat mengganggu? | Terbawa embusan angin langsung ke arah permukiman dan area ladang |
-| **Why 2** | Mengapa bau semakin pekat di luar area TPA? | Intensitas bau melonjak saat sampah sedang aktif dipilah |
-| **Why 3** | Mengapa penanganan timbunan belum meredam dampak? | Beban timbunan di blok-blok TPA sudah sangat tinggi (mencapai blok D) |
-| **Why 4** | Mengapa beban TPA terus meluber? | Kinerja pengolahan dari hulu (TPS 3R) belum optimal mengurangi volume sampah masuk |
-| **Why 5** | **Mengapa belum teratasi komprehensif?** | **Belum terintegrasinya data spasial aktivitas warga (peternakan/permukiman) dalam dokumen kebijakan pengelolaan sampah** |
-
-### 13.4 Isu Strategis yang Dirumuskan
-
-> *"Optimalisasi Kebijakan Pengelolaan Sampah Berbasis Mitigasi Dampak Spasial di TPA Putri Cempo Surakarta (Timeframe RPJMD 2025–2029)."*
-
-Perhatikan bahwa akar masalah yang ditemukan bersifat **struktural dan sistemik** — bukan sekadar masalah teknis operasional, melainkan menyangkut integrasi data dalam dokumen kebijakan.
-
----
-
-## 14. Contoh Identifikasi Permasalahan Kota Metropolitan: Jakarta
-
-Sebagai referensi tambahan, berikut ringkasan permasalahan Kota Jakarta berdasarkan dimensi Smart City, diambil dari dokumen *Potret Kota Jakarta Menuju Kota Cerdas Berskala Global* (Pemprov DKI Jakarta, 2024).
-
-Tabel ini menunjukkan bagaimana sebuah kota besar mengidentifikasi isu per pilar Smart City secara sistematis — langkah awal sebelum penyaringan dan pemeringkatan dilakukan.
-
-| Dimensi | Permasalahan Utama | Data Pendukung |
-| :--- | :--- | :--- |
-| **Smart Environment** | Kualitas lingkungan menurun dan emisi karbon tetap tinggi | Kenaikan temperatur 1,1°C selama 47 tahun; cuaca ekstrem naik 15–26% |
-| **Smart Economy** | Ketimpangan sosial meningkat | Rasio Gini naik dari 0,32 (2007) menjadi 0,431 (2023) |
-| **Smart People** | Kualitas SDM belum kompetitif secara global | Global Talent Index: Jakarta 30,1 vs Singapura 77,1 vs London 60,9 |
-| **Smart Mobility** | Pergerakan manusia dan barang lambat | Rata-rata tempuh 18,75 km dalam 51 menit (Tokyo: 29,52 km dalam 38 menit) |
-| **Smart Living** | Kualitas hidup tertinggal di kancah global | Rasio rumah layak huni turun dari 99,36% (2018) menjadi 38,8% (2023) |
-| **Smart Branding** | *City branding* belum optimal | Wisatawan mancanegara: Jakarta 1,96 juta vs Singapura 13,6 juta |
-| **Smart Government** | Transformasi digital pelayanan publik masih berjalan | Target percepatan SPBE dan ekosistem kota cerdas |
-
-> **Catatan:**  
-> Tabel di atas menunjukkan tahap awal identifikasi isu. Setelah isu-isu ini dikumpulkan, langkah selanjutnya adalah kita melakukan penyaringan (APKL) dan pemeringkatan (USG) untuk menentukan mana yang menjadi prioritas — persis seperti yang kita praktikkan di Modul 1.3.
-
----
-
-## 15. Panduan Praktikum
-
-### 15.1 Langkah Kerja
-
-1. **Ambil 3 kandidat isu** dari penugasan Modul 1.2.
-2. **Buat lembar kerja spreadsheet** (Excel atau Google Sheets) dengan dua tabel:
-   - Tabel Penyaringan APKL
-   - Tabel Pemeringkatan USG
-3. **Isi skor 1–5** untuk setiap kriteria. Tuliskan justifikasi di kolom atau baris terpisah.
-4. **Gunakan rumus aktif** untuk menghitung total skor dan ranking. Jangan mengetik angka secara manual.
-5. **Buat Diagram Fishbone** untuk isu yang menempati Peringkat 1. Gunakan minimal 4–5 kategori dan turunkan setiap cabang dengan teknik 5 Whys.
-6. **Ekspor** Fishbone ke format PNG dan simpan spreadsheet dalam format XLSX.
-
----
-
-### 15.2 Contoh Tata Letak Spreadsheet
-
-Berikut adalah contoh format dan tata letak (*layout*) lembar kerja spreadsheet untuk Tabel Penyaringan APKL dan Tabel Pemeringkatan USG yang memuat kolom penomoran, kode isu, rumusan isu, skor penilaian, total skor, serta formula status otomatis:
-
-![Contoh Tata Letak Spreadsheet APKL dan USG](./assets/contoh_sps.png)
-
----
-
-### 15.3 Formula yang Wajib Digunakan
-
-**Seluruh total skor dan ranking harus menggunakan rumus aktif. Dilarang mengetik angka manual.**
-
-1. **Total skor APKL** (misal baris 4, kolom D sampai G):
-   ```
-   =SUM(D4:G4)
-   ```
-2. **Total skor USG** (misal baris 4, kolom D sampai F):
-   ```
-   =SUM(D4:F4)
-   ```
-3. **Ranking otomatis** (misal total skor USG di kolom G, baris 4–6):
-   ```
-   =RANK.EQ(G4, $G$4:$G$6, 0)
-   ```
-   Fungsi ini membandingkan nilai pada sel G4 terhadap seluruh total skor di G4:G6. Angka `0` berarti urutan menurun, sehingga skor tertinggi mendapat Rank 1.
-
-4. **Status kelolosan APKL** (opsional):
-   ```
-   =IF(H4>=12, "Memenuhi Syarat", "Gugur")
-   ```
-
----
-
-### 15.4 Pembuatan Diagram Fishbone
-
-Diagram Fishbone dapat dibuat menggunakan:
-- **Draw.io / Diagrams.net** (disarankan, gratis)
-- **Miro**
-- **Canva**
-- **FigJam / Figma**
-
-Ketentuan:
-- Kepala ikan harus berisi rumusan masalah yang spesifik.
-- Minimal 4 sampai 5 kategori tulang utama.
-- Setiap cabang diturunkan menggunakan teknik 5 Whys.
-- Teks harus terbaca jelas, tidak terpotong.
-- Ekspor dalam format **PNG** dengan resolusi minimal 1920 × 1080 piksel.
-
----
-
-## 16. Luaran dan Ketentuan Pengumpulan
-
-Kita perlu mengunggah dua berkas:
-
-1. **Diagram Fishbone**
-   - Format: `.png`
-   - Nama file: `T1.3_Fishbone_[NRP]_[Nama].png`
-   - Contoh: `T1.3_Fishbone_5026221001_AhmadFauzi.png`
-
-2. **Lembar Kerja Skoring**
-   - Format: `.xlsx` (berisi rumus aktif)
-   - Nama file: `T1.4_Skoring_[NRP]_[Nama].xlsx`
-   - Contoh: `T1.4_Skoring_5026221001_AhmadFauzi.xlsx`
-
----
-
-## 17. Kesalahan Umum
+## 13. Kesalahan Umum
 
 Berikut kesalahan yang sering terjadi dan harus dihindari:
 
@@ -813,8 +676,8 @@ Memberikan nilai tanpa menuliskan alasan. Setiap skor harus disertai kalimat pen
 
 ---
 
-### Kesalahan 2 — Angka manual di spreadsheet
-Menghitung total skor di luar spreadsheet lalu mengetiknya secara manual. Penilai akan memeriksa apakah sel-sel tersebut berisi rumus aktif.
+### Kesalahan 2 — Angka manual pada perhitungan skoring
+Menghitung total skor di luar spreadsheet lalu mengetiknya secara manual. Analisis skoring yang baik harus memanfaatkan formula aktif (seperti `=SUM` dan `=RANK.EQ`) agar konsisten, terverifikasi, dan dinamis.
 
 ---
 
@@ -834,7 +697,7 @@ Memasukkan faktor prosedur kerja ke kategori People, atau memasukkan faktor kebi
 ---
 
 ### Kesalahan 6 — Isu baru tanpa bukti
-Memunculkan isu baru di Modul 1.3 yang tidak pernah diobservasi atau divalidasi pada Modul 1.1 dan 1.2.
+Memunculkan isu baru pada tahap analisis prioritas yang tidak pernah diobservasi atau divalidasi pada tahap identifikasi isu sebelumnya.
 
 ---
 
@@ -848,7 +711,7 @@ Menyusun penyebab secara teoretis umum tanpa memperhatikan kondisi nyata, geogra
 
 ---
 
-## 18. Ringkasan
+## 14. Ringkasan
 
 | Tahap | Metode | Pertanyaan | Hasil |
 | :--- | :--- | :--- | :--- |
