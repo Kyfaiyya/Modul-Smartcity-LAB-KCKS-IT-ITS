@@ -740,21 +740,9 @@ Tabel ini menunjukkan bagaimana sebuah kota besar mengidentifikasi isu per pilar
 
 ### 15.2 Contoh Tata Letak Spreadsheet
 
-```text
-TABEL PENYARINGAN APKL
-┌────┬──────┬─────────────────────────┬───┬───┬───┬───┬────────────┬──────────────────┐
-│ No │ Kode │   Rumusan Isu           │ A │ P │ K │ L │ Total Skor │ Status           │
-├────┼──────┼─────────────────────────┼───┼───┼───┼───┼────────────┼──────────────────┤
-│  1 │ ISU1 │ [Teks rumusan...]       │ 4 │ 4 │ 4 │ 4 │  =SUM()    │ =IF(Total>=12..) │
-└────┴──────┴─────────────────────────┴───┴───┴───┴───┴────────────┴──────────────────┘
+Berikut adalah contoh format dan tata letak (*layout*) lembar kerja spreadsheet untuk Tabel Penyaringan APKL dan Tabel Pemeringkatan USG yang memuat kolom penomoran, kode isu, rumusan isu, skor penilaian, total skor, serta formula status otomatis:
 
-TABEL PEMERINGKATAN USG
-┌────┬──────┬─────────────────────────┬───┬───┬───┬────────────┬──────────────────┐
-│ No │ Kode │   Rumusan Isu           │ U │ S │ G │ Total Skor │ Peringkat (Rank) │
-├────┼──────┼─────────────────────────┼───┼───┼───┼────────────┼──────────────────┤
-│  1 │ ISU1 │ [Teks rumusan...]       │ 5 │ 5 │ 4 │  =SUM()    │ =RANK.EQ(...)    │
-└────┴──────┴─────────────────────────┴───┴───┴───┴────────────┴──────────────────┘
-```
+![Contoh Tata Letak Spreadsheet APKL dan USG](./assets/contoh_sps.png)
 
 ---
 
