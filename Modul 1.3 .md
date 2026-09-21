@@ -35,7 +35,7 @@ Karena itu, diperlukan cara yang sistematis untuk menentukan:
 
 Tantangan lainnya adalah kecenderungan untuk langsung mengobati gejala yang terlihat di permukaan, tanpa menelusuri penyebab sesungguhnya.
 
-Sebagai contoh, ketika sampah menumpuk di sudut-sudut kota, solusi yang sering muncul adalah menambah truk pengangkut atau membuat aplikasi pelaporan sampah. Namun, jika akar masalahnya terletak pada jadwal pengangkutan yang tidak teratur di tingkat rukun warga, maka solusi tersebut tidak akan menuntaskan persoalan.
+Sebagai contoh di Kota Surabaya, ketika timbulan sampah kota mencapai 1.810,81 ton/hari dan kapasitas olah gasifikasi TPA Benowo terbatas pada 1.000 ton/hari, solusi reaktif yang sering muncul adalah sekadar menambah armada truk pengangkut atau memperluas lahan timbunan. Namun, jika akar masalahnya terletak pada rendahnya pemilahan di sumber (realisasi reduksi hulu baru 7,43% dari target resmi 35,29%) serta ketiadaan regulasi insentif/disinsentif bagi pengelola kawasan mandiri dan RT/RW, maka menambah truk pengangkut saja tidak akan menuntaskan persoalan secara berkelanjutan.
 
 Modul 1.3 membantu kita melakukan dua hal:
 1. **Memilih satu isu prioritas** dari beberapa kandidat, menggunakan metode APKL dan USG.
@@ -55,12 +55,12 @@ Gejala adalah kondisi permukaan yang langsung terlihat atau dirasakan.
 
 Gejala biasanya menjadi hal yang pertama kali dikeluhkan masyarakat atau diberitakan media.
 
-Contoh:
-> Waktu tempuh bus kota pada jam sibuk meningkat menjadi 75 menit.
+Contoh pada kasus pengelolaan persampahan Kota Surabaya:
+> Timbunan sampah harian yang masuk ke TPA Benowo meluap hingga 1.536,74 ton/hari dan terjadi insiden kebakaran tumpukan sampah di Blok 1B seluas ±900 m² (19 Juli 2026).
 
-Gejala menunjukkan ada yang tidak beres. Namun, gejala belum menjelaskan **mengapa** kondisi tersebut terjadi.
+Gejala menunjukkan ada tekanan operasional yang sangat berat di fasilitas akhir. Namun, gejala permukaan ini belum menjelaskan **mengapa** timbunan dan kebakaran tersebut dapat terjadi.
 
-Jika kita hanya mengatasi gejala, masalah yang sama akan muncul kembali.
+Jika kita hanya mengatasi gejala (misalnya sekadar memadamkan api secara darurat atau mengerahkan ekskavator untuk menimbun tanah penutup), insiden dan kelebihan kapasitas yang sama pasti akan terulang kembali.
 
 ---
 
@@ -69,9 +69,9 @@ Jika kita hanya mengatasi gejala, masalah yang sama akan muncul kembali.
 Penyebab antara adalah faktor yang secara langsung memicu timbulnya gejala. Faktor ini berada di lapisan tengah rantai sebab-akibat.
 
 Contoh:
-> Bus kota terjebak antrean kendaraan pribadi di persimpangan tanpa lajur khusus.
+> Kapasitas olah aktif fasilitas gasifikasi PSEL Benowo mentok di 1.000 ton/hari, sehingga menyisakan residu ±536,74 ton/hari yang tertimbun mentah di *landfill* dan memicu akumulasi gas metana pekat yang mudah terbakar.
 
-Banyak orang berhenti pada lapisan ini dan langsung merancang solusi. Padahal, masih ada pertanyaan yang lebih dalam: mengapa persimpangan tersebut tidak memiliki lajur khusus?
+Banyak orang berhenti pada lapisan ini dan langsung merancang solusi sepihak (misalnya mendesak penambahan unit mesin gasifikasi baru). Padahal, masih ada pertanyaan yang jauh lebih mendasar: mengapa beban timbulan sampah yang masuk ke TPA tetap setinggi itu tanpa tersaring di hulu?
 
 ---
 
@@ -80,14 +80,14 @@ Banyak orang berhenti pada lapisan ini dan langsung merancang solusi. Padahal, m
 Akar masalah adalah penyebab paling mendasar. Jika akar masalah berhasil diatasi, masalah yang sama tidak akan terulang.
 
 Akar masalah perkotaan biasanya berkaitan dengan:
-- kelemahan kebijakan atau regulasi daerah;
-- ketiadaan prosedur kerja standar (SOP);
-- rendahnya kompetensi atau kesadaran aparatur dan masyarakat;
-- kegagalan integrasi sistem data dan teknologi;
-- atau alokasi anggaran yang tidak tepat sasaran.
+- kelemahan kebijakan atau regulasi operasional daerah;
+- ketiadaan prosedur kerja standar (SOP) dan skema sanksi yang ditegakkan;
+- rendahnya literasi dan partisipasi masyarakat dalam pemilahan di sumber;
+- kegagalan integrasi sistem data dan instrumentasi teknologi;
+- atau paradigma tata kelola kota yang masih tersentralisasi di hilir (*end-of-pipe*).
 
 Contoh:
-> Belum ada regulasi pemberian hak lintas (*right of way*) untuk angkutan umum massal, dan belum ada integrasi lampu lalu lintas adaptif di pusat kendali.
+> Belum tersedianya regulasi operasional yang mewajibkan desentralisasi fasilitas pengolahan (TPST 3R skala rayon), ketiadaan skema insentif/disinsentif pemilahan di tingkat RT/RW (sehingga reduksi hulu hanya 7,43% dari target 35,29%), serta belum adanya Sistem Satu Data persampahan berbasis neraca digital *real-time*.
 
 > **Prinsip:**  
 > Solusi Smart City yang baik harus diarahkan pada akar masalah, bukan pada gejala.
@@ -370,8 +370,8 @@ Diagram ini dikembangkan oleh Kaoru Ishikawa dan banyak digunakan dalam analisis
 Diagram ini terdiri dari:
 
 1. **Kepala Ikan**: Berisi rumusan masalah (*problem statement*) dari isu prioritas.
-   - Jangan menuliskan satu kata seperti *"Macet"*.
-   - Tuliskan kalimat masalah yang spesifik, misalnya: *"Tingginya waktu tunggu feeder WiraWiri yang mencapai 25–35 menit pada jam sibuk di koridor komuter utama."*
+   - Jangan menuliskan satu kata umum seperti *"Sampah"* atau *"Banjir"*.
+   - Tuliskan rumusan masalah yang spesifik dan berbasis bukti nyata, misalnya: *"Kesenjangan kapasitas olah aktif TPA Benowo terhadap volume timbulan sampah Kota Surabaya (residu ±536,74 ton/hari tertimbun di landfill dan insiden kebakaran Blok 1B). "*
 2. **Tulang Belakang**: Garis horizontal utama yang mengarah ke kepala ikan.
 3. **Tulang Utama**: Kategori besar faktor penyebab (misalnya People, Process, Technology).
 4. **Tulang Cabang dan Ranting**: Penyebab yang lebih spesifik di dalam setiap kategori, diturunkan melalui pertanyaan *"Mengapa?"*.
@@ -419,7 +419,7 @@ Kedua metode ini terkadang membingungkan atau keliru disamakan. Berikut perbedaa
 | :--- | :--- | :--- |
 | **Pertanyaan** | *"Dimensi mana yang perlu dipersempit?"* | *"Apa yang menyebabkan masalah ini terjadi?"* |
 | **Fungsi** | Mempersempit ruang lingkup isu | Menelusuri penyebab dari isu yang sudah dipilih |
-| **Isi cabang** | Aspek masalah (misal: tarif, rute, jadwal) | Faktor penyebab (misal: SOP tidak ada, server mati) |
+| **Isi cabang** | Aspek persoalan (misal: reduksi hulu, kapasitas olah TPA, regulasi kawasan) | Faktor penyebab (misal: SOP inspeksi belum ada, sensor IoT metana nihil) |
 | **Prinsip** | MECE (*Mutually Exclusive, Collectively Exhaustive*) | Cause & Effect dan teknik 5 Whys |
 
 Singkatnya:
@@ -452,23 +452,23 @@ AKAR MASALAH (root cause)
 
 ### 9.1 Contoh Penerapan
 
-Misalkan isu prioritasnya adalah:  
-*"Genangan air lambat surut di kawasan permukiman X setelah hujan deras."*
+Sebagai contoh penelusuran kausalitas, kita ambil data riil **Isu Kandidat 2 Kota Surabaya** dari lembar kerja Kelompok 7 (Isu Ketahanan Drainase & RTH):  
+> *"Genangan air lambat surut di koridor jalan dan permukiman Tenggilis serta Tanjungsari Kota Surabaya setelah hujan lebat (tercatat 7 titik genangan pada 5 November 2025 oleh DSDABM)."*
 
-Berikut penurunan pada kategori **Process**:
+Berikut penurunan kausalitas 5 Whys pada kategori **Process (Alur Kerja & Operasional)**:
 
-| Tingkat | Pertanyaan | Jawaban |
+| Tingkat | Pertanyaan | Jawaban Berbasis Bukti Lapangan |
 | :--- | :--- | :--- |
-| **Why 1** | Mengapa jalan tergenang? | Saluran drainase sekunder meluap karena pendangkalan sedimen |
-| **Why 2** | Mengapa sedimen sangat tebal? | Pengerukan belum dilakukan sebelum musim hujan |
-| **Why 3** | Mengapa pengerukan belum dilakukan? | Jadwal pengerukan tidak disusun berdasarkan data kondisi saluran |
-| **Why 4** | Mengapa tidak ada jadwal berbasis data? | Pemeriksaan saluran masih dilakukan secara manual dan insidental |
-| **Why 5** | **Mengapa pemeriksaan masih manual?** | **Belum ada sistem inventarisasi dan pemantauan aset drainase yang memicu jadwal pemeliharaan otomatis** |
+| **Why 1** | Mengapa jalan utama Tenggilis dan Tanjungsari tergenang air 20–40 cm? | Saluran drainase sekunder dan *box culvert* meluap tidak mampu menampung debit limpasan air hujan |
+| **Why 2** | Mengapa saluran sekunder tidak mampu mengalirkan limpasan? | Aliran air menuju saluran primer terhambat karena fasilitas pengendali air (koneksi *box culvert*, pintu air, dan pompa stasioner) di titik tersebut belum tersambung lengkap |
+| **Why 3** | Mengapa konektivitas dan kapasitas pengendali air belum memadai? | Penentuan jadwal pembangunan dan pengerukan drainase belum didasarkan pada data historis debit air dan simulasi beban limpasan secara dinamis |
+| **Why 4** | Mengapa perencanaan drainase belum berbasis data dinamis? | Pemantauan tinggi muka air dan inventarisasi kondisi saluran masih dilakukan secara manual melalui inspeksi berkala di lapangan |
+| **Why 5** | **Mengapa pemantauan saluran masih manual dan sporadis?** | **Belum terbangunnya sistem telemetri sensor hidrologi dan inventarisasi aset drainase digital terpadu (*Smart Drainage System*) di lingkungan Dinas Sumber Daya Air dan Bina Marga (DSDABM) Kota Surabaya** |
 
-Jawaban pada Why 5 adalah **akar masalah**.
+Jawaban pada Why 5 adalah **akar masalah** (*root cause*) sistemik yang berada dalam kendali perencanaan kota dan siap diintervensi dengan solusi Smart City.
 
 > **Penting:**  
-> Setiap jawaban "Mengapa" harus berdasarkan fakta atau data yang dapat diverifikasi, bukan spekulasi.
+> Setiap jawaban "Mengapa" harus berdasarkan fakta atau data yang dapat diverifikasi dari dokumen resmi kota, bukan spekulasi.
 
 ---
 
@@ -492,12 +492,14 @@ Secara visual, Iceberg Model mengilustrasikan bahwa apa yang tampak di permukaan
 
 ### 10.1 Penjelasan Setiap Lapisan
 
-| Lapisan | Pertanyaan Kunci | Contoh (Isu Banjir Kota) |
-| :--- | :--- | :--- |
-| **Event** | Apa yang terjadi? | Genangan air merendam jalan utama setelah hujan deras |
-| **Pattern** | Apakah ini berulang? | Banjir terjadi setiap musim hujan di titik yang sama selama 3 tahun terakhir |
-| **Structure** | Sistem apa yang membentuk pola ini? | Tidak ada SOP pengerukan berkala; anggaran pemeliharaan drainase tidak mencukupi |
-| **Mental Model** | Asumsi apa yang melanggengkan? | "Banjir adalah bencana alam yang wajar" — sehingga penanganan bersifat reaktif, bukan preventif |
+Berikut penerapan Iceberg Model menggunakan data riil **Isu Genangan dan Ketahanan Ruang Terbuka Hijau (RTH) Kota Surabaya** dari lembar kerja Kelompok 7 (Sheet `1.1 Identitas Kota` dan `1.2_Problem_Statement`):
+
+| Lapisan | Pertanyaan Kunci | Contoh Kasus Riil (Genangan & RTH Kota Surabaya) | Respons Intervensi |
+| :--- | :--- | :--- | :--- |
+| **Event** *(Permukaan)* | Apa yang terlihat langsung? | Genangan air setinggi 20–40 cm merendam jalan dan permukiman di 7 titik Surabaya (terparah di Tenggilis dan Tanjungsari) pada 5 November 2025 setelah hujan lebat. | **React**: Pengerahan mobil pompa *mobile* darurat dan pembersihan cepat mulut tali air oleh satgas DSDABM. |
+| **Pattern** *(Tren Berulang)* | Apakah kejadian ini membentuk pola berulang? | Genangan berulang terjadi di koridor jalan yang sama setiap kali hujan berintensitas tinggi turun pada awal musim penghujan. | **Anticipate**: Menjadwalkan siaga rumah pompa dan memprediksi titik rawan genangan menjelang musim hujan tiba. |
+| **Structure** *(Sistem & Struktur)* | Sistem, regulasi, dan data apa yang membentuk pola ini? | Fasilitas pengendali air (pompa, pintu air, saluran *box culvert*) belum terkoneksi utuh; ketiadaan data pemantauan resmi RTH privat (syarat UU No. 26/2007 min. 10%) meski RTH publik telah mencapai 20,32%. | **Redesign / Regenerate**: Mengintegrasikan sistem telemetri sensor drainase terpadu dengan instrumen perizinan kota untuk mewajibkan sumur resapan dan RTH privat. |
+| **Mental Model** *(Pola Pikir)* | Paradigma dasar apa yang melanggengkan struktur tersebut? | Pola pikir bahwa banjir dan genangan diselesaikan semata-mata dengan memperbesar saluran beton di hilir (*grey infrastructure*), mengabaikan konservasi resapan alami (*green infrastructure*) di hulu. | **Reframe**: Mengubah paradigma pembangunan menuju konsep *sponge city* (kota spons) yang menyeimbangkan infrastruktur buatan dengan pelestarian daerah resapan air. |
 
 ### 10.2 Hubungan Iceberg Model dengan Fishbone dan 5 Whys
 
