@@ -6,12 +6,13 @@
 
 Setelah mempelajari materi ini, mahasiswa diharapkan mampu:
 - Membedakan antara gejala, penyebab antara, dan akar masalah.
-- Menjelaskan fungsi metode APKL sebagai alat penapisan isu.
+- Menjelaskan fungsi metode APKL sebagai alat penyaringan isu.
 - Menjelaskan fungsi metode USG sebagai alat pemeringkatan isu.
 - Menerapkan metode APKL dan USG menggunakan rumus aktif pada spreadsheet.
 - Memberikan justifikasi tertulis untuk setiap skor yang diberikan.
 - Menyusun Diagram Fishbone dengan kategori yang sesuai untuk konteks Smart City.
 - Menerapkan teknik 5 Whys untuk menemukan akar masalah.
+- Memahami konsep Iceberg Model untuk menganalisis kedalaman masalah secara sistemik.
 - Menghasilkan luaran berupa Diagram Fishbone (PNG) dan lembar kerja skoring (XLSX).
 
 ---
@@ -38,7 +39,7 @@ Sebagai contoh, ketika sampah menumpuk di sudut-sudut kota, solusi yang sering m
 
 Modul 1.3 membantu mahasiswa melakukan dua hal:
 1. **Memilih satu isu prioritas** dari beberapa kandidat, menggunakan metode APKL dan USG.
-2. **Menemukan akar masalah** dari isu prioritas tersebut, menggunakan Diagram Fishbone dan teknik 5 Whys.
+2. **Menemukan akar masalah** dari isu prioritas tersebut, menggunakan Diagram Fishbone, teknik 5 Whys, serta Iceberg Model.
 
 ---
 
@@ -116,7 +117,7 @@ Contoh:
 
 ---
 
-## 4. Mengapa Perlu Penapisan dan Pemeringkatan?
+## 4. Mengapa Perlu Penyaringan dan Pemeringkatan?
 
 Dari Modul 1.2, mahasiswa mungkin menghasilkan tiga atau lebih kandidat isu. Semua isu tersebut mungkin valid dan didukung bukti.
 
@@ -135,7 +136,7 @@ Namun, kota memiliki keterbatasan:
        └─────────────┬─────────────┘
                      │
                      ▼
-         PENAPISAN & PEMERINGKATAN
+         PENYARINGAN & PEMERINGKATAN
            (Metode APKL & USG)
                      │
                      ▼
@@ -143,12 +144,12 @@ Namun, kota memiliki keterbatasan:
 ```
 
 Untuk itu, mahasiswa perlu melalui dua tahap:
-1. **Penapisan (APKL)**: Menguji apakah setiap isu layak untuk diangkat.
+1. **Penyaringan (APKL)**: Menguji apakah setiap isu layak untuk diangkat.
 2. **Pemeringkatan (USG)**: Dari isu yang layak, menentukan mana yang paling mendesak.
 
 ---
 
-## 5. Penapisan Isu dengan Metode APKL
+## 5. Penyaringan Isu dengan Metode APKL
 
 Metode APKL digunakan untuk menguji kelayakan suatu isu sebelum diprioritaskan. Metode ini banyak digunakan dalam perencanaan kebijakan publik di Indonesia, termasuk dalam pedoman analisis isu dari Lembaga Administrasi Negara (LAN RI).
 
@@ -436,6 +437,15 @@ Dalam konteks perkotaan dan Smart City, mahasiswa dapat menggunakan 5 sampai 6 k
 6. **Policy & Governance (Regulasi & Kebijakan) — opsional**  
    Peraturan daerah yang tumpang tindih, ketidakjelasan wewenang, atau lemahnya penegakan sanksi.
 
+> **Catatan — Lensa Triple Transition:**  
+> Dalam mengisi kategori Fishbone, mahasiswa juga dapat mempertimbangkan kerangka *Triple Transition* (Green, Digital, Inclusive) yang diperkenalkan oleh Prof. Rizal Sebastian pada CITIES International Conference 2025 di Surabaya. Kerangka ini membantu memastikan bahwa analisis penyebab mencakup tiga dimensi transisi kota cerdas secara seimbang:
+>
+> | Transisi | Pertanyaan Panduan untuk Fishbone |
+> | :--- | :--- |
+> | **Green** | Apakah penyebab ini berkaitan dengan keberlanjutan lingkungan, emisi karbon, atau ketahanan iklim? |
+> | **Digital** | Apakah penyebab ini berkaitan dengan keterhubungan sistem, adaptasi terhadap kebutuhan pengguna, atau optimasi otomatis? |
+> | **Inclusive** | Apakah penyebab ini memperburuk ketimpangan sosial, mengabaikan kelompok rentan, atau menghambat partisipasi warga? |
+
 ---
 
 ### 8.3 Perbedaan Issue Tree dan Fishbone
@@ -499,7 +509,69 @@ Jawaban pada Why 5 adalah **akar masalah**.
 
 ---
 
-## 10. Alur Kerja Modul 1 Secara Keseluruhan
+## 10. Analisis Berlapis dengan Iceberg Model
+
+Selain Fishbone dan 5 Whys, mahasiswa dapat menggunakan **Iceberg Model** sebagai alat bantu untuk melihat isu secara lebih sistemik sebelum memetakan penyebab.
+
+Iceberg Model dikembangkan dalam tradisi *systems thinking* dan banyak digunakan dalam analisis kebijakan publik. Model ini membagi sebuah persoalan ke dalam empat lapisan:
+
+```text
+┌─────────────────────────────────────────────────┐
+│  ░░░░░░░░░░ PERMUKAAN AIR ░░░░░░░░░░░░░░░░░░░░ │
+│                                                 │
+│  1. EVENT (Peristiwa)                           │
+│     Apa yang terjadi? Fakta yang tampak.         │
+│                                                 │
+│  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  │
+│                                                 │
+│  2. PATTERN (Pola)                              │
+│     Apakah kejadian ini berulang atau tren?     │
+│                                                 │
+│  3. STRUCTURE (Struktur)                        │
+│     Sistem, regulasi, kewenangan, atau          │
+│     koordinasi apa yang membentuk pola ini?     │
+│                                                 │
+│  4. MENTAL MODEL (Model Mental)                 │
+│     Asumsi, cara pandang, atau kebiasaan        │
+│     berpikir apa yang melanggengkan struktur?   │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+### 10.1 Penjelasan Setiap Lapisan
+
+| Lapisan | Pertanyaan Kunci | Contoh (Isu Banjir Kota) |
+| :--- | :--- | :--- |
+| **Event** | Apa yang terjadi? | Genangan air merendam jalan utama setelah hujan deras |
+| **Pattern** | Apakah ini berulang? | Banjir terjadi setiap musim hujan di titik yang sama selama 3 tahun terakhir |
+| **Structure** | Sistem apa yang membentuk pola ini? | Tidak ada SOP pengerukan berkala; anggaran pemeliharaan drainase tidak mencukupi |
+| **Mental Model** | Asumsi apa yang melanggengkan? | "Banjir adalah bencana alam yang wajar" — sehingga penanganan bersifat reaktif, bukan preventif |
+
+### 10.2 Hubungan Iceberg Model dengan Fishbone dan 5 Whys
+
+Ketiga metode ini saling melengkapi:
+
+```text
+  ICEBERG MODEL              FISHBONE                    5 WHYS
+  ─────────────              ────────                    ──────
+  Melihat lapisan            Memetakan penyebab          Menggali kedalaman
+  masalah secara             ke dalam kategori           setiap cabang hingga
+  vertikal (Event →          (People, Process,           akar masalah
+  Pattern → Structure        Technology, dst.)
+  → Mental Model)
+
+  "Seberapa dalam            "Dari mana saja             "Mengapa itu
+   masalah ini?"              penyebabnya?"               terjadi?"
+```
+
+Mahasiswa dapat menggunakan Iceberg Model sebagai langkah awal untuk memahami kedalaman isu, lalu menggunakan Fishbone untuk memetakan penyebab secara terstruktur, dan 5 Whys untuk menurunkan setiap cabang hingga akar masalah.
+
+> **Tips Praktis:**  
+> Isi tabel Iceberg terlebih dahulu sebelum menggambar Fishbone. Lapisan *Structure* dan *Mental Model* dari Iceberg sering kali menjadi akar masalah yang ditempatkan di ujung cabang Fishbone.
+
+---
+
+## 11. Alur Kerja Modul 1 Secara Keseluruhan
 
 Berikut adalah hubungan antar-modul dari Modul 1.1 hingga 1.3:
 
@@ -520,16 +592,16 @@ Berikut adalah hubungan antar-modul dari Modul 1.1 hingga 1.3:
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────┐
-│ MODUL 1.3 — Penapisan (APKL) & Pemeringkatan (USG)          │
+│ MODUL 1.3 — Penyaringan (APKL) & Pemeringkatan (USG)          │
 │ - Menguji kelayakan isu                                     │
 │ - Menentukan 1 isu prioritas utama                          │
 └──────────────────────────────┬──────────────────────────────┘
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────┐
-│ MODUL 1.3 — Analisis Akar Masalah (Fishbone & 5 Whys)       │
-│ - Memetakan faktor penyebab                                 │
-│ - Menemukan akar masalah sistemik                           │
+│ MODUL 1.3 — Analisis Akar Masalah (Iceberg, Fishbone, 5Whys)│
+│ - Memahami kedalaman isu secara sistemik                    │
+│ - Memetakan faktor penyebab & menemukan akar masalah        │
 └──────────────────────────────┬──────────────────────────────┘
                                │
                                ▼
@@ -541,11 +613,11 @@ Berikut adalah hubungan antar-modul dari Modul 1.1 hingga 1.3:
 
 ---
 
-## 11. Contoh Terapan: Kota Surabaya
+## 12. Contoh Terapan: Kota Surabaya
 
 Berikut adalah contoh lengkap penerapan APKL, USG, dan Fishbone menggunakan kasus Kota Surabaya.
 
-### 11.1 Tiga Kandidat Isu dari Modul 1.2
+### 12.1 Tiga Kandidat Isu dari Modul 1.2
 
 1. **Isu A — Smart Environment**  
    Penumpukan sampah di TPS wilayah Surabaya Timur pada akhir pekan.  
@@ -561,7 +633,7 @@ Berikut adalah contoh lengkap penerapan APKL, USG, dan Fishbone menggunakan kasu
 
 ---
 
-### 11.2 Tabel Penapisan APKL
+### 12.2 Tabel Penyaringan APKL
 
 | No | Isu | A | P | K | L | Total | Status |
 | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :--- |
@@ -575,7 +647,7 @@ Justifikasi singkat:
 
 ---
 
-### 11.3 Tabel Pemeringkatan USG
+### 12.3 Tabel Pemeringkatan USG
 
 | No | Isu | U | S | G | Total | Peringkat |
 | :-: | :--- | :-: | :-: | :-: | :-: | :--- |
@@ -592,7 +664,7 @@ Justifikasi:
 
 ---
 
-### 11.4 Diagram Fishbone untuk Isu Prioritas
+### 12.4 Diagram Fishbone untuk Isu Prioritas
 
 Rumusan masalah pada kepala ikan:  
 *"Tingginya waktu tunggu armada feeder WiraWiri Surabaya (25–35 menit) pada jam sibuk di koridor komuter utama."*
@@ -627,13 +699,69 @@ Rumusan masalah pada kepala ikan:
 
 ---
 
-## 12. Panduan Praktikum
+## 13. Contoh Terapan: Kota Surakarta (Iceberg Model + 5 Whys)
 
-### 12.1 Langkah Kerja
+Berikut contoh penerapan Iceberg Model dan 5 Whys pada kasus nyata di Kota Surakarta, diambil dari Modul Penyusunan Policy Brief (CivicLab Academy × ITS × Taktis Consulting, 2026).
+
+### 13.1 Masalah Awal
+
+Warga di sekitar TPA Putri Cempo, Surakarta, terganggu oleh bau sampah yang pekat.
+
+### 13.2 Analisis Iceberg Model
+
+| Lapisan | Temuan |
+| :--- | :--- |
+| **Event** | Bau sampah menyengat tercium warga di sekitar TPA |
+| **Pattern** | Bau muncul berulang, terutama saat aktivitas pemilahan sampah aktif |
+| **Structure** | Kinerja pengolahan hulu (TPS 3R) belum optimal; beban timbunan di blok TPA sudah sangat tinggi |
+| **Mental Model** | Menganggap bau TPA sebagai risiko yang harus diterima warga tanpa perlu intervensi tata ruang dan kebijakan operasional |
+
+### 13.3 Analisis 5 Whys
+
+| Tingkat | Pertanyaan | Jawaban |
+| :--- | :--- | :--- |
+| **Why 1** | Mengapa bau sangat mengganggu? | Terbawa embusan angin langsung ke arah permukiman dan area ladang |
+| **Why 2** | Mengapa bau semakin pekat di luar area TPA? | Intensitas bau melonjak saat sampah sedang aktif dipilah |
+| **Why 3** | Mengapa penanganan timbunan belum meredam dampak? | Beban timbunan di blok-blok TPA sudah sangat tinggi (mencapai blok D) |
+| **Why 4** | Mengapa beban TPA terus meluber? | Kinerja pengolahan dari hulu (TPS 3R) belum optimal mengurangi volume sampah masuk |
+| **Why 5** | **Mengapa belum teratasi komprehensif?** | **Belum terintegrasinya data spasial aktivitas warga (peternakan/permukiman) dalam dokumen kebijakan pengelolaan sampah** |
+
+### 13.4 Isu Strategis yang Dirumuskan
+
+> *"Optimalisasi Kebijakan Pengelolaan Sampah Berbasis Mitigasi Dampak Spasial di TPA Putri Cempo Surakarta (Timeframe RPJMD 2025–2029)."*
+
+Perhatikan bahwa akar masalah yang ditemukan bersifat **struktural dan sistemik** — bukan sekadar masalah teknis operasional, melainkan menyangkut integrasi data dalam dokumen kebijakan.
+
+---
+
+## 14. Contoh Identifikasi Permasalahan Kota Metropolitan: Jakarta
+
+Sebagai referensi tambahan, berikut ringkasan permasalahan Kota Jakarta berdasarkan dimensi Smart City, diambil dari dokumen *Potret Kota Jakarta Menuju Kota Cerdas Berskala Global* (Pemprov DKI Jakarta, 2024).
+
+Tabel ini menunjukkan bagaimana sebuah kota besar mengidentifikasi isu per pilar Smart City secara sistematis — langkah awal sebelum penyaringan dan pemeringkatan dilakukan.
+
+| Dimensi | Permasalahan Utama | Data Pendukung |
+| :--- | :--- | :--- |
+| **Smart Environment** | Kualitas lingkungan menurun dan emisi karbon tetap tinggi | Kenaikan temperatur 1,1°C selama 47 tahun; cuaca ekstrem naik 15–26% |
+| **Smart Economy** | Ketimpangan sosial meningkat | Rasio Gini naik dari 0,32 (2007) menjadi 0,431 (2023) |
+| **Smart People** | Kualitas SDM belum kompetitif secara global | Global Talent Index: Jakarta 30,1 vs Singapura 77,1 vs London 60,9 |
+| **Smart Mobility** | Pergerakan manusia dan barang lambat | Rata-rata tempuh 18,75 km dalam 51 menit (Tokyo: 29,52 km dalam 38 menit) |
+| **Smart Living** | Kualitas hidup tertinggal di kancah global | Rasio rumah layak huni turun dari 99,36% (2018) menjadi 38,8% (2023) |
+| **Smart Branding** | *City branding* belum optimal | Wisatawan mancanegara: Jakarta 1,96 juta vs Singapura 13,6 juta |
+| **Smart Government** | Transformasi digital pelayanan publik masih berjalan | Target percepatan SPBE dan ekosistem kota cerdas |
+
+> **Catatan untuk mahasiswa:**  
+> Tabel di atas menunjukkan tahap awal identifikasi isu. Setelah isu-isu ini dikumpulkan, langkah selanjutnya adalah melakukan penyaringan (APKL) dan pemeringkatan (USG) untuk menentukan mana yang menjadi prioritas — persis seperti yang dipraktikkan di Modul 1.3.
+
+---
+
+## 15. Panduan Praktikum
+
+### 15.1 Langkah Kerja
 
 1. **Ambil 3 kandidat isu** dari penugasan Modul 1.2.
 2. **Buat lembar kerja spreadsheet** (Excel atau Google Sheets) dengan dua tabel:
-   - Tabel Penapisan APKL
+   - Tabel Penyaringan APKL
    - Tabel Pemeringkatan USG
 3. **Isi skor 1–5** untuk setiap kriteria. Tuliskan justifikasi di kolom atau baris terpisah.
 4. **Gunakan rumus aktif** untuk menghitung total skor dan ranking. Jangan mengetik angka secara manual.
@@ -642,10 +770,10 @@ Rumusan masalah pada kepala ikan:
 
 ---
 
-### 12.2 Contoh Tata Letak Spreadsheet
+### 15.2 Contoh Tata Letak Spreadsheet
 
 ```text
-TABEL PENAPISAN APKL
+TABEL PENYARINGAN APKL
 ┌────┬──────┬─────────────────────────┬───┬───┬───┬───┬────────────┬──────────────────┐
 │ No │ Kode │   Rumusan Isu           │ A │ P │ K │ L │ Total Skor │ Status           │
 ├────┼──────┼─────────────────────────┼───┼───┼───┼───┼────────────┼──────────────────┤
@@ -662,7 +790,7 @@ TABEL PEMERINGKATAN USG
 
 ---
 
-### 12.3 Formula yang Wajib Digunakan
+### 15.3 Formula yang Wajib Digunakan
 
 **Seluruh total skor dan ranking harus menggunakan rumus aktif. Dilarang mengetik angka manual.**
 
@@ -687,7 +815,7 @@ TABEL PEMERINGKATAN USG
 
 ---
 
-### 12.4 Pembuatan Diagram Fishbone
+### 15.4 Pembuatan Diagram Fishbone
 
 Diagram Fishbone dapat dibuat menggunakan:
 - **Draw.io / Diagrams.net** (disarankan, gratis)
@@ -704,7 +832,7 @@ Ketentuan:
 
 ---
 
-## 13. Luaran dan Ketentuan Pengumpulan
+## 16. Luaran dan Ketentuan Pengumpulan
 
 Setiap mahasiswa mengunggah dua berkas:
 
@@ -720,9 +848,9 @@ Setiap mahasiswa mengunggah dua berkas:
 
 ---
 
-## 14. Rubrik Penilaian
+## 17. Rubrik Penilaian
 
-### 14.1 T1.3 — Diagram Fishbone (20 Poin)
+### 17.1 T1.3 — Diagram Fishbone (20 Poin)
 
 | Kriteria | Sangat Baik (85–100%) | Cukup (65–84%) | Kurang (0–64%) | Bobot |
 | :--- | :--- | :--- | :--- | :---: |
@@ -733,7 +861,7 @@ Setiap mahasiswa mengunggah dua berkas:
 
 ---
 
-### 14.2 T1.4 — Skoring APKL & USG (25 Poin)
+### 17.2 T1.4 — Skoring APKL & USG (25 Poin)
 
 | Kriteria | Sangat Baik (85–100%) | Cukup (65–84%) | Kurang (0–64%) | Bobot |
 | :--- | :--- | :--- | :--- | :---: |
@@ -744,7 +872,7 @@ Setiap mahasiswa mengunggah dua berkas:
 
 ---
 
-## 15. Kesalahan Umum
+## 18. Kesalahan Umum
 
 Berikut kesalahan yang sering terjadi dan harus dihindari:
 
@@ -788,12 +916,13 @@ Menyusun penyebab secara teoretis umum tanpa memperhatikan kondisi nyata, geogra
 
 ---
 
-## 16. Ringkasan
+## 19. Ringkasan
 
 | Tahap | Metode | Pertanyaan | Hasil |
 | :--- | :--- | :--- | :--- |
-| **Penapisan** | APKL | *"Apakah isu ini layak diangkat?"* | Status kelayakan setiap isu |
+| **Penyaringan** | APKL | *"Apakah isu ini layak diangkat?"* | Status kelayakan setiap isu |
 | **Pemeringkatan** | USG | *"Mana yang paling mendesak?"* | Isu Peringkat 1 (prioritas utama) |
+| **Pemahaman Sistemik** | Iceberg Model | *"Seberapa dalam masalah ini?"* | Kedalaman masalah (Event hingga Mental Model) |
 | **Analisis Sebab** | Fishbone | *"Faktor apa yang menyebabkan masalah ini?"* | Peta penyebab berdasarkan kategori |
 | **Penelusuran** | 5 Whys | *"Mengapa itu terjadi?"* | Akar masalah yang siap diintervensi |
 
@@ -805,10 +934,13 @@ Menyusun penyebab secara teoretis umum tanpa memperhatikan kondisi nyata, geogra
 ## Daftar Pustaka
 
 1. Andersen, B., & Fagerhaug, T. (2006). *Root Cause Analysis: Simplified Tools and Techniques* (2nd ed.). ASQ Quality Press.
-2. International Telecommunication Union. (2022). *Recommendation ITU-T Y.4903: Key performance indicators for smart sustainable cities to assess the achievement of the Sustainable Development Goals*. ITU.
-3. Ishikawa, K. (1982). *Guide to Quality Control*. Asian Productivity Organization.
-4. Ishikawa, K. (1986). *What is Total Quality Control? The Japanese Way*. Prentice-Hall.
-5. Kementerian Komunikasi dan Digital Republik Indonesia. (2023). *Panduan Implementasi dan Masterplan Smart City Daerah*. Kemkomdigi RI.
-6. Kepner, C. H., & Tregoe, B. B. (1997). *The New Rational Manager: An Updated Edition for a New World*. Princeton Research Press.
-7. Lembaga Administrasi Negara Republik Indonesia (LAN RI). (2021). *Modul Pelatihan Kepemimpinan: Analisis Isu Kontemporer dan Teknik Analisis Kebijakan Publik*. Pusdiklat LAN RI.
-8. UN-Habitat. (2024). *International Guidelines on People-Centred Smart Cities*. United Nations Human Settlements Programme.
+2. CivicLab Academy, Taktis Consulting, & Institut Teknologi Sepuluh Nopember. (2026). *Modul Penyusunan Policy Brief: Dari Isu Strategis Menuju Rekomendasi Kebijakan*.
+3. International Telecommunication Union. (2022). *Recommendation ITU-T Y.4903: Key performance indicators for smart sustainable cities to assess the achievement of the Sustainable Development Goals*. ITU.
+4. Ishikawa, K. (1982). *Guide to Quality Control*. Asian Productivity Organization.
+5. Ishikawa, K. (1986). *What is Total Quality Control? The Japanese Way*. Prentice-Hall.
+6. Kementerian Komunikasi dan Digital Republik Indonesia. (2023). *Panduan Implementasi dan Masterplan Smart City Daerah*. Kemkomdigi RI.
+7. Kepner, C. H., & Tregoe, B. B. (1997). *The New Rational Manager: An Updated Edition for a New World*. Princeton Research Press.
+8. Lembaga Administrasi Negara Republik Indonesia (LAN RI). (2021). *Modul Pelatihan Kepemimpinan: Analisis Isu Kontemporer dan Teknik Analisis Kebijakan Publik*. Pusdiklat LAN RI.
+9. Pemerintah Provinsi Daerah Khusus Jakarta. (2024). *Potret Kota Jakarta Menuju Kota Cerdas Berskala Global* (Buku 1). Jakarta Smart City.
+10. Sebastian, R. (2025). *Creating smart, sustainable and inclusive cities* [Keynote speech]. CITIES International Conference, Surabaya.
+11. UN-Habitat. (2024). *International Guidelines on People-Centred Smart Cities*. United Nations Human Settlements Programme.
