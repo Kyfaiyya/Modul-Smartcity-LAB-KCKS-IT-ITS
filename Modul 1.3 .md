@@ -49,29 +49,6 @@ Sebelum melakukan analisis, mahasiswa perlu memahami bahwa suatu persoalan perko
 
 ![Gejala, Penyebab Antara, dan Akar Masalah](./assets/kausalitas_akar_masalah.jpg)
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│ GEJALA (Symptom)                                            │
-│ Kondisi yang terlihat dan dirasakan langsung                │
-│ Contoh: Genangan air setinggi 40 cm merendam jalan utama    │
-└──────────────────────────────┬──────────────────────────────┘
-                               │ Mengapa?
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│ PENYEBAB ANTARA (Intermediate Cause)                        │
-│ Faktor perantara yang memicu timbulnya gejala               │
-│ Contoh: Saluran drainase tersumbat endapan lumpur           │
-└──────────────────────────────┬──────────────────────────────┘
-                               │ Mengapa?
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│ AKAR MASALAH (Root Cause)                                   │
-│ Sumber persoalan paling mendasar dalam sistem               │
-│ Contoh: Tidak ada jadwal pengerukan berkala dan tidak ada   │
-│ SOP inspeksi drainase sebelum musim hujan                   │
-└─────────────────────────────────────────────────────────────┘
-```
-
 ### 3.1 Gejala
 
 Gejala adalah kondisi permukaan yang langsung terlihat atau dirasakan.
