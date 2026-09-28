@@ -181,83 +181,89 @@ Tanpa pemetaan stakeholder yang baik, solusi yang tampak sempurna di atas kertas
 
 ---
 
-### 4.2 Konsep Pengaruh dan Kepentingan
+### 4.2 Mendelow's Stakeholder Matrix
 
-Matriks pengaruh dan kepentingan (juga dikenal sebagai *Power-Interest Matrix* atau *Stakeholder Matrix*) mengklasifikasikan aktor berdasarkan dua dimensi:
+Kerangka yang digunakan dalam modul ini adalah **Mendelow's Stakeholder Matrix**, yang dikembangkan oleh Aubrey Mendelow pada 1981 dalam konteks perencanaan strategis organisasi (*Proceedings of the Second International Conference on Information Systems*). Kerangka ini kemudian diadopsi secara luas dalam manajemen kebijakan publik, perencanaan pembangunan, dan analisis aktor dalam intervensi pemerintahan.
 
-**Pengaruh (Power/Influence)**
+Mendelow mengusulkan bahwa setiap pemangku kepentingan dapat dipetakan berdasarkan dua dimensi utama:
+
+**Dimensi 1 — Power (Kekuatan/Pengaruh)**
 
 Seberapa besar kemampuan aktor untuk memengaruhi proses, keputusan, atau implementasi intervensi terhadap isu ini?
 
-Pengaruh dapat berasal dari:
+Dalam konteks Kota Cerdas, pengaruh dapat berasal dari:
 - kewenangan formal (regulasi, anggaran, kebijakan);
 - sumber daya yang dimiliki (dana, teknologi, infrastruktur, jaringan);
 - kemampuan mobilisasi massa atau opini publik;
 - otoritas teknis atau keahlian yang diakui.
 
-**Kepentingan (Interest/Concern)**
+**Dimensi 2 — Interest (Kepentingan)**
 
-Seberapa besar aktor ini terdampak atau memiliki perhatian terhadap isu ini?
+Seberapa besar aktor ini terdampak oleh atau memiliki perhatian terhadap isu ini?
 
 Kepentingan dapat bersifat:
 - langsung (aktor merasakan dampak langsung dari isu);
 - tidak langsung (aktor terdampak secara sekunder melalui rantai sebab-akibat);
-- kelembagaan (isu berada dalam domain tugas dan fungsi aktor tersebut).
+- kelembagaan (isu berada dalam domain tugas dan fungsi resmi aktor tersebut).
+
+> **Catatan:** Mendelow mengembangkan kerangka ini untuk konteks bisnis, tetapi prinsip dasarnya — bahwa strategi keterlibatan aktor harus disesuaikan dengan tingkat kekuatan dan kepentingan mereka — relevan pula dalam konteks kebijakan publik dan tata kelola kota.
 
 ---
 
-### 4.3 Kuadran Matriks
+### 4.3 Empat Kuadran Mendelow
 
-Berdasarkan kombinasi pengaruh dan kepentingan, aktor dapat ditempatkan pada empat kuadran:
+Berdasarkan kombinasi *power* dan *interest*, Mendelow membagi aktor ke dalam empat kuadran, masing-masing dengan strategi keterlibatan yang berbeda:
 
 ```text
-                        KEPENTINGAN
-                   Rendah          Tinggi
-                +--------------+--------------+
-          T     |              |              |
-          I     |   PANTAU     |   LIBATKAN   |
-    P     N     |              |   AKTIF      |
-    E     G     | (Monitor)    | (Manage      |
-    N     G     |              |  Closely)    |
-    G     I     +--------------+--------------+
-    A           |              |              |
-    R     R     |   INFORMASI  |   KONSULTASI |
-    U     E     |   MINIMAL    |   & EDUKASI  |
-    H     N     |              |              |
-          D     | (Monitor)    | (Keep        |
-          A     |              |  Informed)   |
-          H     +--------------+--------------+
+                          INTEREST (Kepentingan)
+                     Rendah              Tinggi
+               +------------------+------------------+
+         T     |                  |                  |
+         I     |  KEEP SATISFIED  |  MANAGE CLOSELY  |
+   P     N     |  (Pertahankan    |  (Kelola dengan  |
+   O     G     |   Kepuasan)      |   Cermat)        |
+   W     G     |                  |                  |
+   E     I     +------------------+------------------+
+   R           |                  |                  |
+         R     |     MONITOR      |   KEEP INFORMED  |
+         E     |   (Pantau)       |  (Beri Informasi |
+         N     |                  |   Berkala)       |
+         D     |                  |                  |
+         A     +------------------+------------------+
+         H
 ```
 
-#### Kuadran I — Pengaruh Tinggi, Kepentingan Tinggi: Libatkan Aktif
+#### Kuadran A — Power Tinggi, Interest Rendah: *Keep Satisfied*
 
-Aktor pada kuadran ini adalah pemangku kepentingan utama (*key stakeholders*). Mereka memiliki kewenangan besar sekaligus kepentingan langsung terhadap isu.
+Dalam terminologi Mendelow, aktor ini harus **dipertahankan kepuasannya**. Mereka memiliki kekuasaan besar untuk menghambat atau menggagalkan intervensi, tetapi kepentingan mereka terhadap isu ini tidak langsung atau terbatas.
 
-Strategi: libatkan secara aktif dalam perencanaan, konsultasikan setiap keputusan penting, dan bangun kemitraan yang kuat.
+Strategi: jaga komunikasi aktif; sampaikan informasi yang relevan secara berkala; pastikan kebijakan yang diambil tidak bertentangan dengan prioritas mereka.
+
+Contoh: Wali Kota Surabaya — memiliki pengaruh anggaran dan kebijakan kota secara keseluruhan, namun keterlibatan langsungnya terhadap isu persampahan bersifat umum sebagai kepala eksekutif.
+
+#### Kuadran B — Power Tinggi, Interest Tinggi: *Manage Closely*
+
+Inilah kelompok **pemangku kepentingan kunci** (*key players*) menurut Mendelow. Mereka harus dikelola secara paling intensif karena memiliki sekaligus kekuasaan yang besar dan kepentingan yang tinggi terhadap isu.
+
+Strategi: libatkan secara aktif dalam setiap tahap perencanaan dan pengambilan keputusan; bangun kemitraan yang kuat dan berkelanjutan.
 
 Contoh: Kepala Dinas Lingkungan Hidup (DLH) Kota Surabaya — memiliki kewenangan anggaran dan regulasi operasional, sekaligus bertanggung jawab langsung atas pengelolaan persampahan.
 
-#### Kuadran II — Pengaruh Tinggi, Kepentingan Rendah: Pantau dan Jaga
+#### Kuadran C — Power Rendah, Interest Rendah: *Monitor*
 
-Aktor pada kuadran ini memiliki kekuatan besar tetapi belum tentu terlibat langsung dalam isu. Mereka perlu diinformasikan agar tidak menjadi penghalang.
+Aktor ini tidak terlibat langsung dan tidak memiliki pengaruh signifikan. Mendelow menyarankan untuk cukup **memantau** posisi mereka, karena posisi tersebut dapat berubah jika konteks isu berkembang.
 
-Strategi: jaga komunikasi aktif, pastikan mereka tidak berposisi menentang intervensi yang diusulkan.
+Strategi: pantau secara pasif; berikan informasi dasar jika diperlukan; waspadai pergeseran posisi akibat perubahan isu.
 
-Contoh: Wali Kota Surabaya — memiliki pengaruh anggaran dan kebijakan kota secara keseluruhan, namun kepentingan langsungnya terhadap isu persampahan bersifat umum sebagai pemimpin kota.
+Contoh: Lembaga riset atau perguruan tinggi yang belum terlibat aktif dalam isu — belum memiliki mandat langsung, tetapi berpotensi menjadi mitra jika isu berkembang.
 
-#### Kuadran III — Pengaruh Rendah, Kepentingan Tinggi: Konsultasi dan Edukasi
+#### Kuadran D — Power Rendah, Interest Tinggi: *Keep Informed*
 
-Aktor ini terdampak langsung oleh isu tetapi tidak memiliki kewenangan besar untuk mengubahnya.
+Aktor ini terdampak langsung oleh isu tetapi tidak memiliki kekuasaan formal untuk mengubahnya. Mendelow menekankan pentingnya **memberi informasi berkala** kepada kelompok ini agar mereka tidak merasa diabaikan dan berpotensi bergerak ke kuadran lain melalui koalisi atau advokasi.
 
-Strategi: libatkan dalam konsultasi, sampaikan informasi secara berkala, dan jadikan suara mereka sebagai masukan untuk perencanaan.
+Strategi: libatkan dalam konsultasi; sampaikan informasi secara teratur; jadikan aspirasi mereka sebagai masukan perencanaan.
 
-Contoh: Komunitas penggerak bank sampah — terdampak langsung oleh sistem pengelolaan sampah, namun tidak memiliki kewenangan formal dalam pengambilan keputusan.
-
-#### Kuadran IV — Pengaruh Rendah, Kepentingan Rendah: Informasi Minimal
-
-Aktor ini tidak terlibat langsung dan tidak memiliki pengaruh signifikan. Cukup informasikan secara berkala dan pantau jika ada perubahan posisi.
-
-Strategi: monitor secara pasif; berikan informasi dasar jika diperlukan.
+Contoh: Komunitas penggerak bank sampah dan warga sekitar TPA — terdampak langsung oleh sistem pengelolaan sampah, namun tidak memiliki kewenangan formal dalam pengambilan keputusan.
 
 ---
 
@@ -280,15 +286,15 @@ Identifikasi semua pihak yang memiliki keterlibatan dengan isu prioritas, baik s
 
 **Langkah 2 — Nilai pengaruh dan kepentingan**
 
-Berikan skor pengaruh dan kepentingan untuk setiap aktor dalam skala 1-5.
+Berikan skor *power* dan *interest* untuk setiap aktor dalam skala 1-5, lalu tentukan kuadran Mendelow yang sesuai.
 
-| Aktor | Pengaruh (1-5) | Kepentingan (1-5) | Kuadran |
+| Aktor | Power (1-5) | Interest (1-5) | Kuadran Mendelow |
 | :--- | :---: | :---: | :--- |
-| *contoh* | *4* | *5* | *Libatkan Aktif* |
+| *contoh* | *4* | *5* | *B — Manage Closely* |
 
 Dalam menentukan skor, gunakan pertanyaan panduan berikut:
-- Pengaruh: *Apakah aktor ini bisa menghentikan, memperlambat, atau mempercepat intervensi terhadap isu ini?*
-- Kepentingan: *Apakah aktor ini merasakan dampak langsung dari isu, atau memiliki mandat formal untuk menanggapinya?*
+- *Power*: *Apakah aktor ini bisa menghentikan, memperlambat, atau mempercepat intervensi terhadap isu ini?*
+- *Interest*: *Apakah aktor ini merasakan dampak langsung dari isu, atau memiliki mandat formal untuk menanggapinya?*
 
 **Langkah 3 — Tempatkan pada matriks**
 
@@ -306,18 +312,18 @@ Setelah matriks selesai, buat narasi singkat yang menjelaskan:
 
 ### 4.5 Contoh Pemetaan pada Kasus Persampahan Kota Surabaya
 
-| No | Aktor | Peran | Pengaruh | Kepentingan | Kuadran |
+| No | Aktor | Peran | Power | Interest | Kuadran Mendelow |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 1 | Kepala DLH Kota Surabaya | Otoritas kebijakan operasional dan anggaran pengelolaan sampah | 5 | 5 | Libatkan Aktif |
-| 2 | Wali Kota Surabaya | Pemimpin eksekutif; mengesahkan anggaran dan regulasi kota | 5 | 3 | Pantau dan Jaga |
-| 3 | DPRD Kota Surabaya (Komisi C) | Menyetujui APBD dan regulasi daerah terkait lingkungan | 4 | 3 | Pantau dan Jaga |
-| 4 | PT Sumber Organik (pengelola PSEL Benowo) | Operator fasilitas gasifikasi; mitra swasta utama | 4 | 5 | Libatkan Aktif |
-| 5 | Bappeda Kota Surabaya | Perencanaan RPJMD dan pengalokasian program dinas | 4 | 3 | Pantau dan Jaga |
-| 6 | Komunitas Bank Sampah (BSUK & RW) | Pengelola pemilahan tingkat hulu; terdampak langsung | 2 | 5 | Konsultasi dan Edukasi |
-| 7 | Warga sekitar TPA Benowo | Terdampak langsung (bau, pencemaran, kesehatan) | 1 | 5 | Konsultasi dan Edukasi |
-| 8 | Media lokal (Jawa Pos, Surya) | Pembentuk opini publik dan tekanan sosial | 3 | 2 | Pantau dan Jaga |
-| 9 | Perguruan Tinggi (ITS, UNAIR) | Riset dan rekomendasi teknis/kebijakan | 2 | 3 | Informasi Minimal |
-| 10 | LSM Lingkungan (Ecoton, dll.) | Advokasi dan pemantauan independen | 2 | 4 | Konsultasi dan Edukasi |
+| 1 | Kepala DLH Kota Surabaya | Otoritas kebijakan operasional dan anggaran pengelolaan sampah | 5 | 5 | B — Manage Closely |
+| 2 | Wali Kota Surabaya | Pemimpin eksekutif; mengesahkan anggaran dan regulasi kota | 5 | 3 | A — Keep Satisfied |
+| 3 | DPRD Kota Surabaya (Komisi C) | Menyetujui APBD dan regulasi daerah terkait lingkungan | 4 | 3 | A — Keep Satisfied |
+| 4 | PT Sumber Organik (pengelola PSEL Benowo) | Operator fasilitas gasifikasi; mitra swasta utama | 4 | 5 | B — Manage Closely |
+| 5 | Bappeda Kota Surabaya | Perencanaan RPJMD dan pengalokasian program dinas | 4 | 3 | A — Keep Satisfied |
+| 6 | Komunitas Bank Sampah (BSUK & RW) | Pengelola pemilahan tingkat hulu; terdampak langsung | 2 | 5 | D — Keep Informed |
+| 7 | Warga sekitar TPA Benowo | Terdampak langsung (bau, pencemaran, kesehatan) | 1 | 5 | D — Keep Informed |
+| 8 | Media lokal (Jawa Pos, Surya) | Pembentuk opini publik dan tekanan sosial | 3 | 2 | A — Keep Satisfied |
+| 9 | Perguruan Tinggi (ITS, UNAIR) | Riset dan rekomendasi teknis/kebijakan | 2 | 3 | C — Monitor |
+| 10 | LSM Lingkungan (Ecoton, dll.) | Advokasi dan pemantauan independen | 2 | 4 | D — Keep Informed |
 
 ---
 
@@ -500,7 +506,7 @@ Tabel pemetaan tanpa justifikasi sama dengan menebak. Setiap status relevansi ha
 Modul 1.4 merupakan modul terakhir dalam rangkaian Modul 1. Kegiatan praktikum berfokus pada tiga hal utama:
 
 1. **Validasi isu**: mengonfirmasi isu prioritas hasil Modul 1.3 ke minimal dua sumber sekunder atau satu narasumber.
-2. **Pemetaan stakeholder**: mengidentifikasi dan memetakan minimal delapan aktor dalam matriks pengaruh dan kepentingan.
+2. **Pemetaan stakeholder**: mengidentifikasi dan memetakan minimal delapan aktor menggunakan Mendelow's Stakeholder Matrix.
 3. **Pemetaan pilar**: menempatkan isu pada satu pilar utama dan pilar-pilar pendukung yang relevan, disertai justifikasi.
 
 Seluruh hasil dari Modul 1.1 hingga 1.4 kemudian disusun menjadi **Laporan Modul 1**.
@@ -509,13 +515,13 @@ Seluruh hasil dari Modul 1.1 hingga 1.4 kemudian disusun menjadi **Laporan Modul
 
 ### 6.2 Format Luaran
 
-#### Luaran 1 — Matriks Pengaruh dan Kepentingan
+#### Luaran 1 — Mendelow's Stakeholder Matrix
 
 Matriks disusun dalam dua bagian:
 
 **Bagian A — Tabel Skor Aktor**
 
-| No | Nama Aktor | Kategori | Peran | Skor Pengaruh (1-5) | Skor Kepentingan (1-5) | Kuadran |
+| No | Nama Aktor | Kategori | Peran | Power (1-5) | Interest (1-5) | Kuadran Mendelow |
 | :---: | :--- | :--- | :--- | :---: | :---: | :--- |
 | 1 | | | | | | |
 | 2 | | | | | | |
