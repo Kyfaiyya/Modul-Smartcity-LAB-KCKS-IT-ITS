@@ -298,6 +298,9 @@ S_C &= (0{,}40 \times 2) + (0{,}20 \times 5) \\
 $$
 
 Pada contoh ini, Alternatif A memiliki skor tertinggi. Keputusan akhir tetap harus mempertimbangkan kebutuhan wajib, keterbatasan teknis, dan stabilitas hasil penilaian.
+
+![Contoh visualisasi Weighted Decision Matrix](assets/weighted_decision_matrix.jpg)
+
 ## 3.5 Analisis Kompromi
 
 Analisis kompromi (*trade-off analysis*) digunakan untuk memahami pertukaran antara kelebihan dan kekurangan alternatif.
@@ -332,6 +335,8 @@ Arsitektur sistem menggambarkan komponen utama, fungsi setiap komponen, hubungan
 Arsitektur harus mencerminkan keputusan teknologi yang telah ditetapkan dan menunjukkan bagaimana komponen bekerja sama untuk memenuhi kebutuhan sistem.
 
 Modul ini menggunakan arsitektur empat lapis: perangkat, jaringan, platform, dan aplikasi.
+
+![Contoh diagram arsitektur empat lapis Smart City](assets/arsitektur_empat_lapis.jpg)
 
 ## 4.2 Lapisan Arsitektur
 
@@ -403,6 +408,8 @@ Pada sistem pemantauan berbasis IoT, aliran data umumnya mengikuti urutan beriku
 6. Pengguna mengambil tindakan berdasarkan informasi tersebut.
 
 Sistem tertentu dapat memiliki komunikasi dua arah, misalnya aplikasi mengirimkan perintah kontrol kepada perangkat. Arah komunikasi tersebut harus sesuai dengan fungsi sistem dan ditunjukkan dalam diagram.
+
+![Contoh aliran data pada sistem pemantauan berbasis IoT](assets/aliran_data_sistem.jpg)
 
 ## 4.4 Notasi Diagram dan Penamaan Komponen
 
