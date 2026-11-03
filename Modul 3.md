@@ -681,48 +681,6 @@ Jika data baseline tidak tersedia, tuliskan rencana pengukurannya. Jangan mengis
 
 ---
 
-## 14. Luaran dan Kriteria Kelengkapan
-
-Penilaian tugas menggunakan tiga tingkat: selesai 100%, selesai sebagian 60%, dan tidak selesai 0%. Luaran dianggap lengkap apabila memenuhi seluruh kriteria berikut.
-
-### Bagian A — Alur Data dan Tata Kelola Data (T3.1 dan T3.2)
-
-| Luaran | Kriteria kelengkapan |
-|---|---|
-| Diagram alur data | Diagram konteks dan DFD level 0 tersedia; notasi konsisten dan memiliki legenda; seluruh aliran berlabel nama data dan klasifikasi; elemen DFD konsisten dengan arsitektur Modul 2 |
-| Diagram siklus hidup data | Diagram empat tahap dan tabel siklus hidup untuk setiap penyimpanan data; dasar pemrosesan, masa retensi, dan metode pemusnahan dinyatakan |
-| Tabel risiko dan mitigasi | Minimal **6 baris**; mencakup kategori keamanan, privasi, dan etika; setiap baris memiliki skor, level, mitigasi spesifik, dan penanggung jawab; seluruh risiko level tinggi memiliki mitigasi |
-
-### Bagian B — Roadmap, Biaya, dan KPI (T3.3 dan T3.4)
-
-| Luaran | Kriteria kelengkapan |
-|---|---|
-| Roadmap implementasi | Matriks RACI dengan tepat satu *Accountable* per aktivitas; tabel regulasi dengan status berlaku; roadmap **tiga tahap bertanggal** dengan cakupan, aktivitas, luaran, dan kriteria lanjut |
-| Estimasi biaya | Komponen pengadaan, operasional, dan pemeliharaan; setiap harga memiliki sumber dan tanggal akses; asumsi dinyatakan; TCO dan cadangan dihitung |
-| Rencana keberlanjutan | Aspek finansial, kelembagaan, SDM, teknis, dan lingkungan dijelaskan |
-| KPI | **Tiga KPI dampak** (bukan output); setiap KPI memiliki rumus, baseline atau rencana pengukuran baseline, target bertanggal, sumber data, dan frekuensi |
-
----
-
-## 15. Ringkasan
-
-Modul 3 melengkapi rancangan solusi dari dua sisi.
-
-**Bagian A — Tata kelola data** memastikan data dikelola secara aman dan sah:
-
-Arsitektur (Modul 2) → DFD berlabel → Siklus hidup data → Kontrol keamanan → Kepatuhan UU PDP dan etika → Tabel risiko dan mitigasi
-
-**Bagian B — Perencanaan implementasi** memastikan solusi dapat dijalankan dan diukur:
-
-Stakeholder (Modul 1.4) → RACI dan regulasi → Roadmap tiga tahap → Estimasi biaya → Keberlanjutan → KPI dampak
-
-Kedua bagian saling terkait. Risiko tinggi pada Bagian A menjadi prasyarat pada roadmap, pengendali dan prosesor data menentukan pembagian peran, dan kontrol keamanan menjadi komponen biaya.
-
-> **Inti Modul 3:**  
-> Solusi Smart City yang layak diusulkan tidak hanya dapat dibangun secara teknis, tetapi juga melindungi data warga, memiliki penanggung jawab yang jelas, terjangkau biayanya, dan dapat dibuktikan dampaknya.
-
----
-
 ## Daftar Pustaka
 
 1. Badan Siber dan Sandi Negara. (2021). *Peraturan BSSN Nomor 4 Tahun 2021 tentang Pedoman Manajemen Keamanan Informasi Sistem Pemerintahan Berbasis Elektronik dan Standar Teknis dan Prosedur Keamanan Sistem Pemerintahan Berbasis Elektronik*. BSSN.
