@@ -321,27 +321,6 @@ Ketika mengomunikasikan rancangan pada video maupun sidang presentasi, susun alu
 
 ---
 
-## 10. Luaran dan Rubrik Penilaian Modul 3.2 (T3.3 & T3.4)
-
-Penilaian praktikum untuk setiap tugas menggunakan tiga tingkat: **Selesai 100%**, **Selesai Sebagian 60%**, dan **Tidak Selesai 0%**.
-
-| Kode Tugas & Poin | *Sheet* Pengerjaan | Luaran Wajib | Kriteria Selesai 100% | Kondisi Selesai Sebagian (60%) | Kondisi Tidak Selesai (0%) |
-|---|---|---|---|---|---|
-| **T3.3**<br>(10 poin) | `3.3 Tata Kelola & Roadmap` | 1. Matriks RACI Antarinstansi<br>2. Tabel Verifikasi Regulasi (Nasional & Daerah)<br>3. *Roadmap* Implementasi 3 Tahap Bertanggal | • Matriks RACI mencakup aktivitas teknis, operasional, dan kepatuhan UU PDP (DPIA/DPO, insiden 3 × 24 jam, retensi), serta lolos validasi tepat **satu `A`** dan **minimal satu `R`** per baris.<br>• Tabel regulasi mencakup regulasi nasional dan daerah (via JDIH kota studi) dengan status keberlakuan terverifikasi serta mencatat prasyarat jika aturan daerah belum tersedia.<br>• *Roadmap* memuat **3 tahap utama bertanggal** (*Pilot*, *Perluasan Terbatas*, *Skala Kota*, ditambah *Tahap 0 Persiapan* bila ada prasyarat) dengan kriteria lanjut (*go/no-go gate*) yang mengikat **ketiga KPI** dan kesiapan keamanan/serah terima. | Terdapat 1–2 ketidaklengkapan, misalnya: ada baris RACI yang memiliki >1 `A` atau tanpa `R`, status keberlakuan regulasi JDIH belum diperiksa, atau kriteria lanjut *roadmap* belum mengacu pada ketiga KPI. | *Sheet* dikosongkan, tidak ada *roadmap* bertanggal, atau menyalin mentah contoh Surabaya tanpa penyesuaian kota studi. |
-| **T3.4**<br>(10 poin) | `3.4 Biaya, Keberlanjutan & KPI` | 1. Estimasi Biaya 3 Tahun (CAPEX, OPEX, Pemeliharaan, TCO & Manfaat)<br>2. Rencana Keberlanjutan 5 Aspek<br>3. Tiga KPI Dampak (SMART) | • Tabel biaya menghitung CAPEX (termasuk PPN dan uji keamanan/DPIA), OPEX (upah mengacu UMK/SSH daerah), dan Pemeliharaan (termasuk siklus baterai/suku cadang) selama 3 tahun yang sinkron dengan durasi *roadmap*, rumus *spreadsheet* aktif, mencantumkan sumber harga nyata & tanggal akses pada setiap baris, serta menyertakan perbandingan biaya terhadap manfaat.<br>• Rencana keberlanjutan menjawab kelima aspek (*Finansial, Kelembagaan, SDM, Teknis, Lingkungan*).<br>• Tiga KPI merupakan indikator **outcome/impact** (bukan *output*), memenuhi kriteria SMART, seluruh variabel rumusnya terlacak ke *data store* DFD Modul 3.1, memiliki *baseline* terverifikasi (atau protokol pengukuran bulan ke-1 dengan wilayah kontrol), dan target bertahapnya konsisten dengan gerbang *roadmap*. | Terdapat 1–2 ketidaklengkapan, misalnya: sebagian harga belum mencantumkan sumber/tanggal akses, periode OPEX tidak sinkron dengan *roadmap*, belum ada perbandingan manfaat, atau 1–2 KPI masih berupa indikator *output*. | *Sheet* dikosongkan, mengarang harga/baseline tanpa dasar, atau menyalin mentah contoh Surabaya. |
-
----
-
-## 11. Ringkasan
-
-Modul 3.2 melengkapi perancangan *Proof of Concept* dengan kepastian tata kelola, kelayakan anggaran, dan ukuran keberhasilan yang dapat dipertanggungjawabkan:
-
-Stakeholder (Modul 1.4) & Tata Kelola Data (Modul 3.1) → Matriks RACI & Verifikasi Regulasi JDIH → *Roadmap* 3 Tahap Bertanggal dengan *Go/No-Go Gate* → Estimasi Biaya TCO 3 Tahun & Analisis Manfaat → Rencana Keberlanjutan 5 Aspek → Tiga KPI Dampak (SMART) → Integrasi ke Proposal & Presentasi PoC
-
-Dengan selesainya Modul 3.1 dan Modul 3.2, kelompok memiliki fondasi analisis dan perancangan yang utuh dari hulu (identifikasi masalah perkotaan berbasis bukti) hingga hilir (tata kelola data, kesiapan implementasi, dan pengukuran dampak).
-
----
-
 ## Daftar Pustaka
 
 1. Doran, G. T. (1981). There's a S.M.A.R.T. way to write management's goals and objectives. *Management Review, 70*(11), 35–36.
