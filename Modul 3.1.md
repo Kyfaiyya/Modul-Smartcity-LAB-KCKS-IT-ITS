@@ -352,27 +352,6 @@ Dengan pemetaan ini, ketika kelompok mengerjakan prototipe Figma dan menyusun do
 
 ---
 
-## 10. Luaran dan Rubrik Penilaian Modul 3.1 (T3.1 & T3.2)
-
-Penilaian praktikum untuk setiap tugas menggunakan tiga tingkat: **Selesai 100%**, **Selesai Sebagian 60%**, dan **Tidak Selesai 0%**.
-
-| Kode Tugas & Poin | *Sheet* Pengerjaan | Luaran Wajib | Kriteria Selesai 100% | Kondisi Selesai Sebagian (60%) | Kondisi Tidak Selesai (0%) |
-|---|---|---|---|---|---|
-| **T3.1**<br>(10 poin) | `3.1 Alur & Siklus Data` | 1. Daftar elemen DFD & ketertelusuran Modul 2<br>2. Diagram Konteks & DFD Level 0 berlabel klasifikasi<br>3. Tabel Siklus Hidup Data 4 tahap untuk seluruh *data store* | • Diagram Konteks & DFD Level 0 memakai notasi Yourdon–DeMarco konsisten (simbol dua garis sejajar untuk *data store*).<br>• Setiap *data store* memiliki aliran masuk dan keluar; fitur hak subjek data dan entitas publik tergambar.<br>• Seluruh aliran berlabel nama data & klasifikasi (`[Publik]`, `[Internal]`, `[Pribadi]`, `[Pribadi Spesifik]`) secara konsisten.<br>• Tabel Siklus Hidup mencakup **seluruh** *data store* hingga tahap Pemusnahan. | Terdapat 1–2 ketidaklengkapan metodologis, misalnya: ada *data store* yang belum masuk ke tabel siklus hidup, ada *data store* tanpa aliran baca, atau label klasifikasi tidak konsisten antara DFD dan tabel. | *Sheet* dikosongkan, tidak ada diagram DFD, atau menyalin mentah contoh Surabaya tanpa penyesuaian kota studi. |
-| **T3.2**<br>(10 poin) | `3.2 Keamanan & Risiko Data` | 1. Tabel Kontrol Keamanan per Lapisan (CIA)<br>2. Tabel Kepatuhan UU PDP & Etika Data<br>3. Tabel Risiko, Mitigasi & Risiko Residual (≥ 6 baris) | • Kontrol keamanan teknis dipetakan spesifik pada 4 lapisan arsitektur beserta aspek CIA.<br>• Tabel UU PDP menetapkan Pengendali & Prosesor, hak subjek data, rencana DPIA/DPO, notifikasi 3 × 24 jam, dan prinsip non-stigmatisasi/inklusivitas.<br>• Tabel risiko memuat **≥ 6 baris** (mencakup Keamanan, Privasi, Etika, Operasional), rumus skor awal & residual aktif, satu strategi tegas per baris, dan seluruh risiko Tinggi turun ke Sedang/Rendah. | Terdapat 1–2 ketidaklengkapan, misalnya: baris risiko berjumlah 3–5 baris (kurang dari 6), belum mencantumkan skor risiko residual, atau mitigasi masih ditulis umum ("meningkatkan keamanan"). | *Sheet* dikosongkan, baris risiko < 3, atau menyalin mentah contoh Surabaya. |
-
----
-
-## 11. Ringkasan
-
-Modul 3.1 menerjemahkan arsitektur teknologi dari Modul 2 menjadi tata kelola data yang aman dan patuh hukum:
-
-Arsitektur 4 Lapis (Modul 2) → Diagram Konteks & DFD Level 0 Berlabel Klasifikasi → Siklus Hidup 4 Tahap (`D1`–`D4`) → Kontrol Keamanan CIA per Lapisan → Kepatuhan UU PDP & Etika Inklusivitas → Matriks Risiko Inheren & Residual → Turunan Alur Layar *Mockup* PoC
-
-Seluruh keputusan tata kelola data pada Modul 3.1 ini—seperti kedudukan Pengendali dan Prosesor Data, kewajiban penyusunan DPIA dan uji keamanan sebelum *go-live*, serta penyimpanan data pembentuk neraca—menjadi masukan langsung bagi penyusunan matriks RACI, *roadmap* implementasi, estimasi biaya, dan perumusan KPI dampak pada **Modul 3.2**.
-
----
-
 ## Daftar Pustaka
 
 1. Badan Siber dan Sandi Negara. (2021). *Peraturan Badan Siber dan Sandi Negara Nomor 4 Tahun 2021 tentang Pedoman Manajemen Keamanan Informasi Sistem Pemerintahan Berbasis Elektronik dan Standar Teknis dan Prosedur Keamanan Sistem Pemerintahan Berbasis Elektronik*. BSSN.
@@ -384,3 +363,4 @@ Seluruh keputusan tata kelola data pada Modul 3.1 ini—seperti kedudukan Pengen
 7. Republik Indonesia. (2018). *Peraturan Presiden Nomor 95 Tahun 2018 tentang Sistem Pemerintahan Berbasis Elektronik*.
 8. Republik Indonesia. (2019). *Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik*.
 9. Republik Indonesia. (2022). *Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi*.
+
